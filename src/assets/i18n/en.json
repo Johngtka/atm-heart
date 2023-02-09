@@ -9,6 +9,10 @@
     "OPT6": "Video",
     "OPT7": "Updates"
   },
+  "HEADERS":{
+    "1": "AGENT P-3",
+    "2": "DOSSIER №0453-1"
+  },
   "MAIN": {
     "B1": "Dmitriy Sergeevich Sechenov obtains a doctorate and a job at the Brain Research Institute „Academy of Medical Sciences” of the USSR at the Department of „Nature of Intellect”. Sechenov is expected to restore the institute's formerly effective scientific work. With this in mind, Prof. Sechenov is creating a new cohort of scientists, many of whom share his philosophy. In the same year, the brain research institute launched the „Crowd-Man” project, which aims to create a new type of person who has no individualism or private life",
     "B2": "The USSR is launching a war against Germany on Polish territory. Large-scale production of military robots, while fully and completely upgrading their control technology, requires colossal financial investment. The USSR government considers the project a net loss and without prospects.",
@@ -17,6 +21,10 @@
     "B5": "In the same year, Sechenov makes an amazing breakthrough in the study of neuropolymers. He creates the process of mimicry adaptation, which is the extraction of a stable neuropolymer network from living creatures. Henceforth, the cybernetic shell of polymers becomes secondary, and the neuropolymer is now an independent programmable module. This discovery is what leads Sechenov to create „Collectiv 2.0”. The „Chelomey” complex is transferred to the ”Icarus” air station and lifted into the air.",
     "B6": "A Soviet lunar rover successfully travels to the Moon and back, bringing with it a soil sample. Using the data complexes obtained, „Vavilov” and „Pavlov” begin research into the adaptation of plants and animals to extraterrestrial celestial bodies. Stalin dies. Nikita Khrushchev becomes General Secretary of the Central Committee of the Communist Party.",
     "B7": "After a series of successful tests, the USSR is launching a nationwide vaccine against P. The launch of the „Collectiv” neural network is scheduled for Monday, June 13, 1955, which will be Sechenov's 55th birthday."
+  },
+  "CHARS": {
+    "B1": "Major Nechaev - special task officer and private agent of Professor Sechenov. He excels in dealing with complicated situations, sometimes brutal. Nechaev has devoted his entire life to service, and in return he received only deep loneliness and numerous wounds, both physical and psychological. Professor Sechenov is the only man who treats him with fatherly cordiality, and agent Nechaev repays him with loyalty and respect. The special agent's past remains classified.",
+    "B2": "Alias „P-3” - as plutonium, the third discovered radioactive element radioactive element - was given to Major Nechaev after he he ended up, severely injured, in Professor Sechenov's laboratory. Both of his hands broken to the elbows, a completely broken left leg and a severe concussion. The professor personally reinforced P-3 with metal prostheses and restored his brain activity. Unfortunately, P-3 still suffered fractional memory loss: he never fully recovered the memories of his past.."
   },
   "FOOTER": {
     "CON": "Contact Us: ",

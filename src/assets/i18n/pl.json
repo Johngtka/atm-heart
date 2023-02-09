@@ -9,6 +9,10 @@
     "OPT6": "Video",
     "OPT7": "Aktualizacje"
   },
+  "HEADERS":{
+    "1": "AGENT P-3",
+    "2": "DOSSIER №0453-1"
+  },
   "MAIN": {
     "B1": "Dmitriy Sergeevich Sechenov uzyskuje doktorat i pracę w Instytucie Badań nad mózgiem „Akademia Nauk Medycznych” ZSRR na Wydziale „Natura Intelektu”. Sechenov ma przywrócić dawną efektywną pracę naukową instytutu. Mając to na uwadze, prof. Sechenov tworzy nową kohortę naukowców, z których wielu podziela jego filozofię. W tym samym roku instytut badań mózgu rozpoczął projekt „Crowd-Man”, którego celem jest stworzenie nowego typu człowieka, który nie ma indywidualizmu ani życia prywatnego.",
     "B2": "ZSRR rozpoczyna wojnę z Niemcami na terytorium Polski. Produkcja robotów wojskowych na dużą skalę, przy jednoczesnym pełnym i całkowitym unowocześnieniu technologii ich sterowania, wymaga kolosalnych inwestycji finansowych. Rząd ZSRR uważa projekt za stratę netto i bez perspektyw.",
@@ -17,6 +21,10 @@
     "B5": "W tym samym roku Sechenov dokonuje niesamowitego przełomu w badaniu neuropolimerów. Tworzy proces mimikrycznej adaptacji, czyli ekstrakcji stabilnej sieci neuropolimerowej z żywych stworzeń. Odtąd cybernetyczna powłoka polimerów staje się drugorzędna, a neuropolimer jest teraz niezależnym modułem programowalnym. To odkrycie jest tym, co prowadzi Sechenova do stworzenia „Collectiv 2.0”. Kompleks „Chelomey” zostaje przeniesiony na stację lotniczą „Icarus” i uniesiony w powietrze.",
     "B6": "Radziecki łazik księżycowy z powodzeniem podróżuje na Księżyc i z powrotem, przynosząc ze sobą próbkę gleby. Korzystając z otrzymanych kompleksów danych „Wawiłow” i „Pawłow” rozpoczynają badania w zakresie adaptacji roślin i zwierząt do pozaziemskich ciał niebieskich. Stalin umiera. Nikita Chruszczow zostaje sekretarzem generalnym Komitetu Centralnego Partii Komunistycznej.",
     "B7": "Po serii udanych testów ZSRR rozpoczyna ogólnokrajową szczepionkę przeciwko P. Uruchomienie sieci neuronowej „Collectiv” zaplanowano na poniedziałek 13 czerwca 1955 r. Będą to 55 urodziny Sechenova."
+  },
+  "CHARS": {
+    "B1": "Major Nechaev - oficer do zadań specjalnych i prywatny agent profesora Sechenova. Świetnie radzi sobie w skomplikowanych sytuacjach, czasem brutalnych. Nechaev całe swoje życie poświęcił służbie, a w zamian otrzymał tylko głęboką samotność i liczne rany, zarówno fizyczne, jak i psychiczne. Profesor Sechenov jest jedynym człowiekiem, który traktuje go z ojcowską serdecznością, a agent Nechaev odpłaca mu lojalnością i szacunkiem. Przeszłość agenta specjalnego pozostaje utajniona.",
+    "B2": "Pseudonim „P-3” - jako pluton, trzeci odkryty pierwiastek promieniotwórczy - został nadany majorowi Nechaevowi po tym, jak skończył, ciężko ranny, w laboratorium profesora Sechenova. Obie ręce złamane do łokci, całkowicie złamana lewa noga i silny wstrząs mózgu. Profesor osobiście wzmocnił P-3 metalowymi protezami i przywrócił mu aktywność mózgu. Niestety, P-3 nadal doznał ułamkowej utraty pamięci: nigdy w pełni nie odzyskał wspomnień ze swojej przeszłości."
   },
   "FOOTER": {
     "CON": "Kontakt z nami: ",
