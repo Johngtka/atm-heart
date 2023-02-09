@@ -1,5 +1,5 @@
 {
-  "MENU":{
+  "MENU": {
     "OPT0": "MENU",
     "OPT1": "Home",
     "OPT2": "Сharacters",
@@ -8,5 +8,14 @@
     "OPT5": "Locations",
     "OPT6": "Video",
     "OPT7": "Updates"
+  },
+  "MAIN": {},
+  "FOOTER": {
+    "CON": "Contact Us: ",
+    "CONBTN": {
+      "1": "Polish",
+      "2": "English",
+      "3": "Russian"
+    }
   }
 }

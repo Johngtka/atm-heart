@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core'
+import { BrowserModule } from '@angular/platform-browser'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
@@ -7,10 +7,11 @@ import { TranslateModule } from '@ngx-translate/core'
 import { TranslateLoader } from '@ngx-translate/core'
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './app-routing.module'
+import { AppComponent } from './app.component'
+import { HeaderComponent } from './header/header.component'
+import { FooterComponent } from './footer/footer.component'
+import { MainComponent } from './main/main.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
@@ -21,11 +22,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 // const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent
-  ],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, MainComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -41,6 +38,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

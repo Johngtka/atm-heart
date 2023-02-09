@@ -1,9 +1,25 @@
 <footer>
   <p>
-    Kontakt z nami:
-    <span class="kontakt"><a href="mailto: vovastudiosofficial@gmail.com"><button type="button"
-          class="btn btn-outline-danger">
+    &copy; By VoVa Studios
+    <button type="button" (click)="setLang('pl')" class="btn btn-danger">
+      {{ 'FOOTER.CONBTN.1' | translate }}
+    </button>
+    <button type="button" (click)="setLang('en')" class="btn btn-danger">
+      {{ 'FOOTER.CONBTN.2' | translate }}
+    </button>
+    <button type="button" (click)="setLang('ru')" class="btn btn-danger">
+      {{ 'FOOTER.CONBTN.3' | translate }}
+    </button>
+  </p>
+  <br />
+  <p>
+    {{ 'FOOTER.CON' | translate }}
+    <span class="kontakt"
+      ><a href="mailto: vovastudiosofficial@gmail.com"
+        ><button type="button" class="btn btn-outline-danger">
           Vova_Support
-        </button></a></span>
+        </button></a
+      ></span
+    >
   </p>
 </footer>
