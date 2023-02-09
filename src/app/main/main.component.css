@@ -1,0 +1,56 @@
+main {
+  width: 100%;
+  text-align: center;
+  /*font-family: 'Luxurious Roman', cursive;*/
+}
+
+main>h1,
+p {
+  margin-top: 20px;
+  text-shadow: #000000 0.2em 0.2em 0.3em;
+}
+
+main {
+  text-shadow: 5px 5px 5px #000000;
+  font-family: 'BlenderProThin', cursive;
+  padding: 20px;
+  width: 100%;
+  /* min-height: auto; */
+  text-align: center;
+  font-size: 25px;
+  /*font-family: 'Luxurious Roman', cursive;*/
+}
+
+main h1 {
+  margin: 20px;
+}
+
+main a {
+  opacity: 0.9;
+}
+
+main a:hover {
+  opacity: 5;
+}
+
+main img {
+  width: 300px;
+  height: 200px;
+  padding-top: 10px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(min-width: 800px) {
+  main img {
+    width: 750px;
+    height: 400px;
+  }
+}
+
+@media(max-width: 600px) {
+  main {
+    padding: 0;
+  }
+}

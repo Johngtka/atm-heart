@@ -9,3 +9,8 @@ body {
   background-size: cover;
   margin: 0;
 }
+
+@font-face {
+  font-family: 'BlenderProThin';
+  src: url('./assets/fonts/BlenderPro-Thin.ttf') format('truetype');
+}

@@ -11,7 +11,8 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { HeaderComponent } from './header/header.component'
 import { FooterComponent } from './footer/footer.component'
-import { MainComponent } from './main/main.component'
+import { MainComponent } from './main/main.component';
+import { CharactersComponent } from './characters/characters.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
@@ -22,7 +23,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 // const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, MainComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, MainComponent, CharactersComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
