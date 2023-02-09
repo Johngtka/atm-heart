@@ -11,7 +11,7 @@ main {
   /*font-family: 'Luxurious Roman', cursive;*/
 }
 
-main>h1,
+main > h1,
 p {
   margin-top: 20px;
   text-shadow: #000000 0.2em 0.2em 0.3em;
@@ -38,14 +38,14 @@ main img {
   margin-right: auto;
 }
 
-@media(min-width: 800px) {
+@media (min-width: 800px) {
   main img {
     width: 750px;
     height: 400px;
   }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   main {
     padding: 0;
   }

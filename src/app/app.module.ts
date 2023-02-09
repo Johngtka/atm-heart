@@ -11,7 +11,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { HeaderComponent } from './header/header.component'
 import { FooterComponent } from './footer/footer.component'
-import { MainComponent } from './main/main.component';
+import { MainComponent } from './main/main.component'
 import { CharactersComponent } from './characters/characters.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -23,7 +23,13 @@ const supportedLang = ['pl', 'en', 'ru']
 const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'pl'
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, MainComponent, CharactersComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainComponent,
+    CharactersComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -41,4 +47,4 @@ const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'pl'
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
