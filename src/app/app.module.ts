@@ -18,9 +18,9 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
 }
 
-// const navigatorLang = navigator.language.split('-')[0]
-// const supportedLang = ['pl', 'en', 'ru']
-// const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
+const navigatorLang = navigator.language.split('-')[0]
+const supportedLang = ['pl', 'en', 'ru']
+const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'pl'
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, FooterComponent, MainComponent, CharactersComponent],
@@ -29,7 +29,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     HttpClientModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'pl',
+      defaultLanguage: lang,
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
@@ -41,4 +41,4 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
