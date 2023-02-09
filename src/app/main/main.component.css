@@ -1,16 +1,6 @@
 main {
   width: 100%;
   text-align: center;
-  /*font-family: 'Luxurious Roman', cursive;*/
-}
-
-main>h1,
-p {
-  margin-top: 20px;
-  text-shadow: #000000 0.2em 0.2em 0.3em;
-}
-
-main {
   text-shadow: 5px 5px 5px #000000;
   font-family: 'BlenderProThin', cursive;
   padding: 20px;
@@ -21,15 +11,21 @@ main {
   /*font-family: 'Luxurious Roman', cursive;*/
 }
 
+main>h1,
+p {
+  margin-top: 20px;
+  text-shadow: #000000 0.2em 0.2em 0.3em;
+}
+
 main h1 {
   margin: 20px;
 }
 
-main a {
+main img {
   opacity: 0.9;
 }
 
-main a:hover {
+main img:hover {
   opacity: 5;
 }
 
