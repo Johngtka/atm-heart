@@ -9,7 +9,7 @@
     "OPT6": "Video",
     "OPT7": "Updates"
   },
-  "HEADERS":{
+  "HEADERS": {
     "1": "AGENT P-3",
     "2": "DOSSIER №0453-1"
   },
@@ -26,6 +26,11 @@
     "B1": "Major Nechaev - special task officer and private agent of Professor Sechenov. He excels in dealing with complicated situations, sometimes brutal. Nechaev has devoted his entire life to service, and in return he received only deep loneliness and numerous wounds, both physical and psychological. Professor Sechenov is the only man who treats him with fatherly cordiality, and agent Nechaev repays him with loyalty and respect. The special agent's past remains classified.",
     "B2": "Alias „P-3” - as plutonium, the third discovered radioactive element radioactive element - was given to Major Nechaev after he he ended up, severely injured, in Professor Sechenov's laboratory. Both of his hands broken to the elbows, a completely broken left leg and a severe concussion. The professor personally reinforced P-3 with metal prostheses and restored his brain activity. Unfortunately, P-3 still suffered fractional memory loss: he never fully recovered the memories of his past.."
   },
+  "WEAPOS":{},
+  "CREATS":{},
+  "LOCALS":{},
+  "VIDS":{},
+  "UPDATS":{},
   "FOOTER": {
     "CON": "Contact Us: ",
     "CONBTN": {

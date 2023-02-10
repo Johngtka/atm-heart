@@ -11,8 +11,13 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { HeaderComponent } from './header/header.component'
 import { FooterComponent } from './footer/footer.component'
-import { MainComponent } from './main/main.component';
-import { CharactersComponent } from './characters/characters.component'
+import { MainComponent } from './main/main.component'
+import { CharactersComponent } from './characters/characters.component';
+import { WeaponsComponent } from './weapons/weapons.component';
+import { CreaturesComponent } from './creatures/creatures.component';
+import { LocationsComponent } from './locations/locations.component';
+import { VideosComponent } from './videos/videos.component';
+import { UpdatesComponent } from './updates/updates.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
@@ -23,7 +28,18 @@ const supportedLang = ['pl', 'en', 'ru']
 const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'pl'
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, MainComponent, CharactersComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainComponent,
+    CharactersComponent,
+    WeaponsComponent,
+    CreaturesComponent,
+    LocationsComponent,
+    VideosComponent,
+    UpdatesComponent,
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
@@ -41,4 +57,4 @@ const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'pl'
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
