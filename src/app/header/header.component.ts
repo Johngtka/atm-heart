@@ -6,7 +6,7 @@ import { TranslateService } from '@ngx-translate/core'
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  constructor(private translateService: TranslateService) { }
+  constructor(private translateService: TranslateService) {}
 
   setLang(lang: string) {
     this.translateService.use(lang)
