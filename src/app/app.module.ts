@@ -17,7 +17,7 @@ import { WeaponsComponent } from './weapons/weapons.component'
 import { CreaturesComponent } from './creatures/creatures.component'
 import { LocationsComponent } from './locations/locations.component'
 
-import { UpdatesComponent } from './updates/updates.component';
+import { UpdatesComponent } from './updates/updates.component'
 import { VideosComponent } from './videos/videos.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
@@ -58,4 +58,4 @@ const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
