@@ -76,7 +76,23 @@
       }
     }
   },
-  "VIDS": {},
+  "VIDS": {
+    "SECT":{
+      "1": "Latest Video",
+      "2": "Authors",
+      "3": "Recommended"
+    },
+    "TIT": {
+      "1": "ARTEP - Atomic Heart",
+      "2": "Atomic Heart - Old Vs New (Enemy) #1",
+      "3": "Presentation of VoVa6 and the Special Version",
+      "4": "Atomic Heart - Beehive",
+      "5": "Atomic Heart - Tereshkova",
+      "6": "Atomic Heart - MA-9 Belyash Trailer (ENG-RU SUBS)",
+      "7": "Atomic Heart E3 2021",
+      "8": "What Is ... Railgun (ENG-RU SUBS)"
+    }
+  },
   "UPDATS": {},
   "FOOTER": {
     "CON": "Contact Us: ",
