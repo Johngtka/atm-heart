@@ -1,0 +1,45 @@
+#widget {
+  padding: 0;
+  height: 170px;
+}
+
+.element {
+  padding: 0;
+  height: 230px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ramka {
+  height: 200px;
+  border-radius: 5%;
+  margin: 10px;
+  width: 350px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.vidbtn {
+  display: none;
+}
+
+@media(max-width: 600px) {
+  .vidbtn {
+    display: inline;
+  }
+
+  .wrapper {
+    display: none;
+  }
+}
+
+.vidwrapper {
+  transition: 0.5s all;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}

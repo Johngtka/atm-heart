@@ -16,8 +16,9 @@ import { CharactersComponent } from './characters/characters.component'
 import { WeaponsComponent } from './weapons/weapons.component'
 import { CreaturesComponent } from './creatures/creatures.component'
 import { LocationsComponent } from './locations/locations.component'
+
+import { UpdatesComponent } from './updates/updates.component';
 import { VideosComponent } from './videos/videos.component'
-import { UpdatesComponent } from './updates/updates.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
@@ -37,8 +38,8 @@ const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
     WeaponsComponent,
     CreaturesComponent,
     LocationsComponent,
-    VideosComponent,
     UpdatesComponent,
+    VideosComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,4 +58,4 @@ const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
