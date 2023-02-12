@@ -93,7 +93,36 @@
       "8": "What Is ... Railgun (ENG-RU SUBS)"
     }
   },
-  "UPDATS": {},
+  "UPDATS": {
+    "SECT": {
+      "1": "Quick fix",
+      "2": "New features",
+      "3": "Content update",
+      "4": "Video update",
+      "5": "Quite a nice surprise",
+      "6": "Finally Balance",
+      "7": "Website Optimization",
+      "8": "Graphics Update",
+      "9": "Font Update",
+      "10": "Interface Update",
+      "11": "Update Update",
+      "12": "Final Update"
+    },
+    "CONTENT": {
+      "B1": "In this update, we have improved the display on phones, the newly added widget with audio under the tab video. That would be it from us for the moment :-) Greetings",
+      "B2": "In this update, we added some details in the video tab. We also changed the video tab on phones. And we fixed some structural bugs on our website.",
+      "B3": "In today's update, we had to improve the translations in the articles, and home pages in all versions of our website. We have also improved the translations of the upgrade descriptions. Greetings :-)",
+      "B4": "In this update, we have refreshed the Videos in the Video tab in all translations. And we also modified the authors' socialmedia links. Greetings to the creators of the Service ;-)",
+      "B5": "Attention, attention in this update we have added to our service the ability to to contact us, using the button at the very bottom of each page. We hope you will contact us using this functionality. Greetings to the creators of the Service ;-)",
+      "B6": "In this update, we finally got rid of the page-shifting effect horizontally on phones. It took us some time but we think, that it was worth all the waiting. Greetings to the creators of the Service ;-)",
+      "B7": "In this update, we improved the display of the top bar and photos on phones, in all subpages and translations. We have also modified the js scripts, specifically optimized and updated some features of the (BootStrap) framework. We also changed the hosting because it was causing problems. We also fixed the article about weapons in the English translation of our site, because it was swapped, with another and we did some other repairs.",
+      "B8": "Today's update includes a refresh of the (Bootstrap) system, and I'm hope this will fix photos not scaling, on phones. We fixed oversized photos by scaling some. And besides, we are at the stage of planning some kind of community system of our website. Expect changes because they are sure to come :-)",
+      "B9": "This update includes fixing and refining bugs, and changing fonts to (NON-STANDARD) welcome to our community and look forward to the changes. We also changed some visual details.",
+      "B10": "The update includes a refresh of the site's appearance and hopefully got rid of a few bugs. We also changed the hosting because it was causing problems. We also fixed the article about weapons in the English translation of our Page, since it was swapped with, another one, and we made some other repairs.",
+      "B11": "The update includes adding updates and adding fonts to the the entire site.",
+      "B12": "The update includes a sizable change to the file structure and a refresh of the videos in the Video tab. It also includes separating the Javascript scripts from the subpages and putting them them into a separate file."
+    }
+  },
   "FOOTER": {
     "CON": "Contact Us: ",
     "CONBTN": {
