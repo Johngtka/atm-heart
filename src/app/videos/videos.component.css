@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-.ramka {
+.vidFrame {
   height: 200px;
   border-radius: 5%;
   margin: 10px;
@@ -23,12 +23,16 @@
   text-align: center;
 }
 
-.vidbtn {
+.vidBtn {
   display: none;
 }
 
+.vidBtn a {
+  width: auto;
+}
+
 @media (max-width: 600px) {
-  .vidbtn {
+  .vidBtn {
     display: inline;
   }
 
@@ -37,20 +41,30 @@
   }
 }
 
-.vidwrapper {
+.vidWrapper {
   transition: 0.5s all;
   float: left;
   overflow: hidden;
   text-align: center;
 }
 
-.col-wrapper {
+.authWrapper a {
+  padding: 5px;
+}
+
+.colWrapper {
   display: flex;
-  /* gap: 0.5rem; */
 }
 
 .col {
   width: auto;
   display: flex;
   flex-direction: column;
+}
+
+.col a {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
