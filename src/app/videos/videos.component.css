@@ -43,3 +43,14 @@
   overflow: hidden;
   text-align: center;
 }
+
+.col-wrapper {
+  display: flex;
+  /* gap: 0.5rem; */
+}
+
+.col {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
