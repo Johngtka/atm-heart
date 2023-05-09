@@ -133,5 +133,9 @@
       "2": "En",
       "3": "Ru"
     }
+  },
+  "COOKIE_BAR": {
+    "CONTENT": "We use cookies on this site",
+    "CLOSE": "Accept"
   }
 }
