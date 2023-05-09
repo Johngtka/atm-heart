@@ -1,47 +1,47 @@
 <main>
   <h1>&spades; {{ 'VIDS.SECT.1' | translate }}</h1>
-  <div class="vidbtn">
+  <div class="vidBtn">
     <a href="https://www.youtube.com/embed/Rbxuu7zpGUM" target="_blank"
-      ><button type="button" class="btn btn-danger">
+      ><button mat-raised-button color="warn">
         {{ 'VIDS.TIT.1' | translate }}
       </button></a
     ><br />
     <a href="https://www.youtube.com/embed/3R4eGjf3N7A" target="_blank"
-      ><button type="button" class="btn btn-danger">
+      ><button mat-raised-button color="warn">
         {{ 'VIDS.TIT.2' | translate }}
       </button></a
     ><br />
     <a href="https://www.youtube.com/embed/uQcdObR8xfU" target="_blank"
-      ><button type="button" class="btn btn-danger">
+      ><button mat-raised-button color="warn">
         {{ 'VIDS.TIT.3' | translate }}
       </button></a
     >
   </div>
   <div class="wrapper">
-    <div class="vidwrapper">
+    <div class="vidWrapper">
       <iframe
-        class="ramka"
-        src="https://www.youtube.com/embed/Rbxuu7zpGUM"
+        class="vidFrame"
+        src="https://www.youtube.com/embed/fSPz1F4P1MU"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
     </div>
-    <div class="vidwrapper">
+    <div class="vidWrapper">
       <iframe
-        class="ramka"
-        src="https://www.youtube.com/embed/3R4eGjf3N7A"
+        class="vidFrame"
+        src="https://www.youtube.com/embed/yiXdbiLw06E"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
     </div>
-    <div class="vidwrapper">
+    <div class="vidWrapper">
       <iframe
-        class="ramka"
-        src="https://www.youtube.com/embed/uQcdObR8xfU"
+        class="vidFrame"
+        src="https://www.youtube.com/embed/JHoQKQPZveE"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -49,50 +49,60 @@
       ></iframe>
     </div>
   </div>
-  <div style="clear: both"></div>
-
   <h1>&spades; {{ 'VIDS.SECT.2' | translate }}</h1>
-  <a href="https://www.instagram.com/seniorelli_365/" target="_blank"
-    ><button type="button" class="btn btn-danger">Meszka</button></a
-  >
-  <a
-    href="https://instagram.com/mateusz_scieginski?igshid=YmMyMTA2M2Y"
-    target="_blank"
-    ><button type="button" class="btn btn-danger">Mr.Ścigacz</button></a
-  >
-  <a href="https://steamcommunity.com/profiles/76561198278195824"
-    ><button type="button" class="btn btn-danger">Ruski</button></a
-  >
+
+  <div class="authWrapper">
+    <a href="https://www.instagram.com/seniorelli_365/" target="_blank"
+      ><button mat-raised-button color="warn">Meszka</button></a
+    >
+    <a
+      href="https://instagram.com/mateusz_scieginski?igshid=YmMyMTA2M2Y"
+      target="_blank"
+      ><button mat-raised-button color="warn">Mr.Ścigacz</button></a
+    >
+    <a
+      href="https://steamcommunity.com/profiles/76561198278195824"
+      target="_blank"
+      ><button mat-raised-button color="warn">Ruski</button></a
+    >
+  </div>
 
   <h1>&spades; {{ 'VIDS.SECT.3' | translate }}</h1>
-  <a href="https://www.youtube.com/watch?v=TxgkqzCKUWU" target="_blank"
-    ><button type="button" class="btn btn-danger">
-      {{ 'VIDS.TIT.4' | translate }}
-    </button></a
-  >
-  <a href="https://www.youtube.com/watch?v=aVx1Cw_pG14" target="_blank"
-    ><button type="button" class="btn btn-danger">
-      {{ 'VIDS.TIT.5' | translate }}
-    </button></a
-  >
-  <a href="https://www.youtube.com/watch?v=LkvH9b68QB8" target="_blank"
-    ><button type="button" class="btn btn-danger">
-      {{ 'VIDS.TIT.6' | translate }}
-    </button></a
-  >
-  <a href="https://www.youtube.com/watch?v=PxA7bSx0eUM&t=10s" target="_blank"
-    ><button type="button" class="btn btn-danger">
-      {{ 'VIDS.TIT.7' | translate }}
-    </button></a
-  >
-  <a href="https://youtu.be/P-pkIx9dlzA" target="_blank"
-    ><button type="button" class="btn btn-danger">
-      {{ 'VIDS.TIT.8' | translate }}
-    </button></a
-  >
+  <div class="colWrapper">
+    <div class="col">
+      <a href="https://www.youtube.com/watch?v=LifmgAZmwD8" target="_blank"
+        ><button mat-raised-button color="warn">
+          {{ 'VIDS.TIT.9' | translate }}
+        </button></a
+      >
+      <a href="https://www.youtube.com/watch?v=PxA7bSx0eUM&t" target="_blank"
+        ><button mat-raised-button color="warn">
+          {{ 'VIDS.TIT.7' | translate }}
+        </button></a
+      >
+      <a href="https://www.youtube.com/watch?v=TxgkqzCKUWU" target="_blank"
+        ><button mat-raised-button color="warn">
+          {{ 'VIDS.TIT.4' | translate }}
+        </button></a
+      >
+      <a href="https://www.youtube.com/watch?v=aVx1Cw_pG14" target="_blank"
+        ><button mat-raised-button color="warn">
+          {{ 'VIDS.TIT.5' | translate }}
+        </button></a
+      >
+      <a href="https://youtu.be/P-pkIx9dlzA" target="_blank"
+        ><button mat-raised-button color="warn">
+          {{ 'VIDS.TIT.8' | translate }}
+        </button></a
+      >
+      <a href="https://www.youtube.com/watch?v=LkvH9b68QB8" target="_blank"
+        ><button mat-raised-button color="warn">
+          {{ 'VIDS.TIT.6' | translate }}
+        </button></a
+      >
+    </div>
+  </div>
   <br />
-  <br />
-  <!-- <h1 style="margin: 0;">&spades; Widgety</h1> -->
   <div id="widget">
     <iframe
       class="element"
@@ -104,7 +114,3 @@
     ></iframe>
   </div>
 </main>
-<!-- data-tilt data-tilt-reverse="true" data-tilt-speed="500" data-tilt-perspective="1000"
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/vanilla-tilt.js"></script> -->

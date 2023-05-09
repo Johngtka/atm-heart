@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser'
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
+import { MatButtonModule } from '@angular/material/button'
+
 import { TranslateModule } from '@ngx-translate/core'
 import { TranslateLoader } from '@ngx-translate/core'
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
@@ -27,6 +29,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 const navigatorLang = navigator.language.split('-')[0]
 const supportedLang = ['pl', 'en', 'ru']
 const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
+const materialModules = [MatButtonModule]
 
 @NgModule({
   declarations: [
@@ -54,6 +57,7 @@ const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en'
       },
     }),
     AppRoutingModule,
+    ...materialModules,
   ],
   providers: [],
   bootstrap: [AppComponent],
