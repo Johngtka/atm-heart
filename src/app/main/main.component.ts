@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 
-import { CookieService, SNACK_TYPE } from '../services/cookie.service'
+import { CookieService } from '../services/cookie.service'
 
 @Component({
   selector: 'app-main',
@@ -10,7 +10,7 @@ export class MainComponent {
   constructor(private cookieService: CookieService) {}
   ngOnInit(): void {
     setTimeout(() => {
-      this.cookieService.snackCookieAlert('COOKIE_BAR.CONTENT', SNACK_TYPE.INFO)
+      this.cookieService.snackCookieAlert()
     }, 1000)
   }
 }

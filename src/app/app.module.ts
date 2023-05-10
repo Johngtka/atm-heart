@@ -19,9 +19,9 @@ import { CharactersComponent } from './characters/characters.component'
 import { WeaponsComponent } from './weapons/weapons.component'
 import { CreaturesComponent } from './creatures/creatures.component'
 import { LocationsComponent } from './locations/locations.component'
-
 import { UpdatesComponent } from './updates/updates.component'
 import { VideosComponent } from './videos/videos.component'
+import { CookieComponent } from './cookie/cookie.component'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
@@ -44,6 +44,7 @@ const materialModules = [MatButtonModule, MatSnackBarModule]
     LocationsComponent,
     UpdatesComponent,
     VideosComponent,
+    CookieComponent,
   ],
   imports: [
     BrowserModule,

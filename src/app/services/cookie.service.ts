@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core'
 
 import { MatSnackBar } from '@angular/material/snack-bar'
-import { TranslateService } from '@ngx-translate/core'
+
+import { CookieComponent } from '../cookie/cookie.component'
 
 export enum SNACK_TYPE {
   'ERROR',
@@ -13,24 +14,9 @@ export enum SNACK_TYPE {
   providedIn: 'root',
 })
 export class CookieService {
-  constructor(
-    private matSnackBar: MatSnackBar,
-    private translateService: TranslateService,
-  ) {}
+  constructor(private matSnackBar: MatSnackBar) {}
 
-  snackCookieAlert(i18nKey: string, type: SNACK_TYPE) {
-    const action = this.translateService.instant('COOKIE_BAR.CLOSE')
-    const message = this.translateService.instant(i18nKey)
-    this.matSnackBar.open(message, action, {
-      duration: 10000,
-      panelClass: [
-        type === SNACK_TYPE.ERROR
-          ? 'error-snackbar'
-          : type === SNACK_TYPE.INFO
-          ? 'info-snackbar'
-          : 'success-snackbar',
-        'login-snackbar',
-      ],
-    })
+  snackCookieAlert() {
+    this.matSnackBar.openFromComponent(CookieComponent, {})
   }
 }
