@@ -11,7 +11,7 @@ import { Cookie } from '../models/cookie'
 })
 export class CookieComponent {
   constructor(
-    private cookieRef: MatSnackBarRef<CookieComponent>,
+    public cookieRef: MatSnackBarRef<CookieComponent>,
     @Inject(MAT_SNACK_BAR_DATA) public data: Cookie,
   ) {}
   close() {

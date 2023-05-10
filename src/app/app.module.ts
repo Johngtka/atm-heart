@@ -22,6 +22,7 @@ import { LocationsComponent } from './locations/locations.component'
 import { UpdatesComponent } from './updates/updates.component'
 import { VideosComponent } from './videos/videos.component'
 import { CookieComponent } from './cookie/cookie.component'
+import { CookieService } from './services/cookie.service'
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient)
@@ -61,7 +62,13 @@ const materialModules = [MatButtonModule, MatSnackBarModule]
     AppRoutingModule,
     ...materialModules,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+  constructor(private cookieService: CookieService) {
+    setTimeout(() => {
+      this.cookieService.snackCookieAlert()
+    }, 1000)
+  }
+}
