@@ -17,6 +17,11 @@ export class CookieService {
   constructor(private matSnackBar: MatSnackBar) {}
 
   snackCookieAlert() {
-    this.matSnackBar.openFromComponent(CookieComponent, {})
+    this.matSnackBar.openFromComponent(CookieComponent, {
+      data: {
+        message: 'COOKIE_BAR.CONTENT',
+        button: 'COOKIE_BAR.CLOSE',
+      },
+    })
   }
 }

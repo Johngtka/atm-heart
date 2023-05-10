@@ -1,6 +1,8 @@
-import { Component } from '@angular/core'
+import { Component, Inject } from '@angular/core'
 
-import { MatSnackBar } from '@angular/material/snack-bar'
+import { MatSnackBarRef, MAT_SNACK_BAR_DATA } from '@angular/material/snack-bar'
+
+import { Cookie } from '../models/cookie'
 
 @Component({
   selector: 'app-cookie',
@@ -8,8 +10,11 @@ import { MatSnackBar } from '@angular/material/snack-bar'
   styleUrls: ['./cookie.component.css'],
 })
 export class CookieComponent {
-  constructor(private matSnackBar: MatSnackBar) {}
+  constructor(
+    private cookieRef: MatSnackBarRef<CookieComponent>,
+    @Inject(MAT_SNACK_BAR_DATA) public data: Cookie,
+  ) {}
   close() {
-    this.matSnackBar.dismiss()
+    this.cookieRef.dismiss()
   }
 }
