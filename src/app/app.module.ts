@@ -19,7 +19,6 @@ import { CharactersComponent } from './characters/characters.component'
 import { WeaponsComponent } from './weapons/weapons.component'
 import { CreaturesComponent } from './creatures/creatures.component'
 import { LocationsComponent } from './locations/locations.component'
-import { UpdatesComponent } from './updates/updates.component'
 import { VideosComponent } from './videos/videos.component'
 import { CookieComponent } from './cookie/cookie.component'
 import { CookieService } from './services/cookie.service'
@@ -43,7 +42,6 @@ const materialModules = [MatButtonModule, MatSnackBarModule]
     WeaponsComponent,
     CreaturesComponent,
     LocationsComponent,
-    UpdatesComponent,
     VideosComponent,
     CookieComponent,
   ],

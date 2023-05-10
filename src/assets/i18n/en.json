@@ -94,45 +94,8 @@
       "9": "Jelly Man - Scene"
     }
   },
-  "UPDATS": {
-    "SECT": {
-      "13": "Updated look of Video tab",
-      "12": "Quick fix",
-      "11": "New features",
-      "10": "Content update",
-      "9": "Video update",
-      "8": "Pretty cool surprise",
-      "7": "Finally Balance",
-      "6": "Site Optimization",
-      "5": "Graphics Update",
-      "4": "Fonts Update",
-      "3": "Interface upgrade",
-      "2": "Update Updates",
-      "1": "Final Update"
-    },
-    "CONTENT": {
-      "B13": "The update adds a new look and buttons to the Video tab. We have also refreshed a couple of add-ons to the app. Best wishes, creators :-)",
-      "B12": "In this update we have improved the display on phones, the newly added widget with audio in the video tab. That would be it from us for the moment. Greetings :-)",
-      "B11": "In this update, we have added some details to the video tab. We also changed the video tab on phones. And we fixed some structural bugs on our website.",
-      "B10": "In today's update we had to improve translations in articles, and home pages in all versions of our site. We also corrected the translations of the update descriptions. Greetings :-)",
-      "B9": "n this update, we have Refreshed the Videos in the Video tab in all translations. And we also modified the socialmedia links of the authors. Greetings to the creators of the Service ;-)",
-      "B8": "Attention, attention in this update we have added to our service the ability to contact us, using the button at the very bottom of each page. We hope that you will contact us using this functionality. Best regards to the creators of the service ;-)",
-      "B7": "In this update, we finally got rid of the effect of the page sliding horizontally on phones. It took us some time but we think it was worth all the waiting. Best regards to the developers of the site ;-)",
-      "B6": "In this update, we improved the display of the top bar and images on phones, in all subpages and translations. We also modified the js scripts, specifically, we optimized and updated some features of the framework (BootStrap). We also changed the hosting because it was causing problems. We also fixed the article about weapons in the English translation of our site, because it was swapped, with another one, and did some other repairs.",
-      "B5": "Today's update includes a refresh of the system (Bootstrap) and hopefully this will fix the photos not scaling on phones, We fixed the oversized photos by scaling some. And besides, we are in the process of planning some kind of community system for our site. Expect changes because they will surely appear :-)",
-      "B4": "This update includes fixing and refining bugs, and changing fonts to (NON-STANDARD) welcome to our community and expect changes. We have also changed some visual details.",
-      "B3": "The update includes refreshing the look of the site and hopefully we got rid of some bugs. We also changed the hosting because it was causing problems. We also fixed the weapons article in the English translation of our site because it was swapped with another one, and we made some other repairs.",
-      "B2": "The update includes adding updates and adding fonts to the entire site.",
-      "B1": "The update includes a sizable change to the file structure and a refresh of the videos in the Video tab. It also includes separating Javascript scripts from subpages and putting them into a separate file."
-    }
-  },
   "FOOTER": {
-    "CON": "Contact Us: ",
-    "CONBTN": {
-      "1": "Pl",
-      "2": "En",
-      "3": "Ru"
-    }
+    "CON": "Contact Us: "
   },
   "COOKIE_BAR": {
     "CONTENT": "We use cookies on this site",
