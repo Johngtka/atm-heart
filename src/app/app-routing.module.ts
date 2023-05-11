@@ -6,7 +6,6 @@ import { WeaponsComponent } from './weapons/weapons.component'
 import { CreaturesComponent } from './creatures/creatures.component'
 import { LocationsComponent } from './locations/locations.component'
 import { VideosComponent } from './videos/videos.component'
-import { UpdatesComponent } from './updates/updates.component'
 
 const routes: Routes = [
   {
@@ -37,10 +36,6 @@ const routes: Routes = [
   {
     path: 'vid',
     component: VideosComponent,
-  },
-  {
-    path: 'uptd',
-    component: UpdatesComponent,
   },
 ]
 

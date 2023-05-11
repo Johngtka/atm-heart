@@ -94,45 +94,8 @@
       "9": "Żelmen - scenka"
     }
   },
-  "UPDATS": {
-    "SECT": {
-      "13": "Aktualizacja wyglądu zakładki Video",
-      "12": "Szybka poprawka",
-      "11": "Nowe funkcje",
-      "10": "Aktualizacja treści",
-      "9": "Aktualizacja Video",
-      "8": "Całkiem fajna niespodzianka",
-      "7": "Nareszcie Równowaga",
-      "6": "Optymalizcja Strony",
-      "5": "Aktualizacja Grafik",
-      "4": "Aktualizacja Czcionek",
-      "3": "Aktualizacja Interface'u",
-      "2": "Aktualizacja Aktualizacji",
-      "1": "Aktualizacja Ostateczna"
-    },
-    "CONTENT": {
-      "B13": "Aktualizacja dodaje nowy wygląd i przyciski w zakładce Video. Odświeżliśmy też pare dodatków do aplikacji. Pozdrawiamy Twórcy :-)",
-      "B12": "W tej aktualizacji poprawiliśmy wyświetlanie się na telefonach, nowo dodanego widgetu z audio w zakładce video. Na tą chwilę było by to od nas tyle. Pozdrawiamy :-)",
-      "B11": "W tej aktualizacji dodaliśmy pewne detale w zakładce video. Zmieniliśmy również zakładkę video na telefonach. Oraz naprawiliśmy kilka strukturalnych błędów na naszej stronie.",
-      "B10": "W dzisiejszej aktualizacji musieliśmy poprawić tłumaczenia w artykułach, oraz stronach głównych we wszystkich wersjach naszego serwisu. Poprawiliśmy również tłumaczenia opisów aktualizacji. Pozdrawiamy :-)",
-      "B9": "W tej aktualizacji Odświeżyliśmy Filmy w zakładce Video we wszystkich tłumaczeniach. Oraz zmodyfikowaliśmy też linki do socialmediów autorów. Pozrdrawiamy twórcy Serwisu ;-)",
-      "B8": "Uwaga, uwaga w tej aktualizacji dodaliśmy do naszego serwisu możliwość kontaktowania sie z nami, za pomocą przycisku na samym dole każdej strony. Mamy nadzieję że będziecie się z nami kontaktować za pomocą tej funkcjonalności. Pozdrawiamy twórcy serwisu ;-)",
-      "B7": "W tej aktualizacji w końcu pozbyliśmy się efektu przesuwania się strony w poziomie na telefonach. Trochę nam to zajęło czasu ale myślimy, że warto było tyle czekać. Pozdrawiamy twórcy serwisu ;-)",
-      "B6": "W tej aktualizacji poprawiliśmy wyświetlanie się paska górnego i zdjęć na telefonach, we wszystkich podstronach i tłumaczeniach. Zmodyfikowaliśmy też skrypty js, konkretnie poddaliśmy optymalizacji oraz zaktualizowaliśmy niektóre funkcje frameworka (BootStrap). Zmieniliśmy również hosting, ponieważ sprawiał problemy. Naprawiliśmy też artykuł o broniach w angielskim tłumaczeniu naszej strony, bo został podmieniony, z innym i zrobiliśmy kilka innych napraw.",
-      "B5": "Dzisiejsza aktualizacja obejmuje odświeżenie systemu (Bootstrap) i mam nadzieje, że to naprawi nie skalujące się zdjęcia na telefonach, Naprawiliśmy zbyt duże zdjęcia, skalując niektóre. A poza tym jesteśmy na etapie planowania jakiegoś systemu społeczności naszej strony. Oczekujcie zmian bo na pewno się pojawią :-)",
-      "B4": "Ta aktualizacja obejmuje naprawienie i dopracowanie błędów, oraz zmianę czcionek na (NIESTANDARDOWE) zapraszamy do naszej społeczności i oczekujcie zmian. Zmieniliśmy również kilka wizualnych szczegółów.",
-      "B3": "Aktualizacja obejmuje odświeżenie wyglądu strony i mam nadzieje że pozbyliśmy się kilku błędów. Zmieniliśmy również hosting ponieważ sprawiał problemy. Naprawiliśmy również artykuł o broniach w tłumaczeniu angielskim naszej strony, ponieważ był on zamieniony z innym i zrobiliśmy kilka innych napraw.",
-      "B2": "Aktualizacja obejmuje dodanie aktualizacji oraz dodanie czcionek do całej strony.",
-      "B1": "Aktualizacja obejmuje sporą zmianę w strukturze plików i odświeżenie filmów w zakładce Video. Obejmuje również oddzielenie skryptów Javascript od podstron i wrzucenie ich do osobnego pliku."
-    }
-  },
   "FOOTER": {
-    "CON": "Kontakt z nami: ",
-    "CONBTN": {
-      "1": "Pl",
-      "2": "En",
-      "3": "Ru"
-    }
+    "CON": "Kontakt z nami: "
   },
   "COOKIE_BAR": {
     "CONTENT": "Na tej stronie używamy plików cookie",
