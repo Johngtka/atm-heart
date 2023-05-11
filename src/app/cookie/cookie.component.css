@@ -1,11 +1,11 @@
 .cookieBar {
-  padding: 5px;
-  display: flex;
-  align-items: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
 }
 .cookieBar p {
-  margin: 0;
+    margin: 0;
 }
 .cookieBar button {
-  margin-left: 10px;
+    margin-left: 10px;
 }

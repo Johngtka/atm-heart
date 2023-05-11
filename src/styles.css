@@ -1,228 +1,206 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  background-image: url('./assets/img/background.png');
-  background-color: black;
-  height: 100%;
-  color: white;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
+    background-image: url('./assets/img/background.png');
+    background-color: black;
+    height: 100%;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
 
 @font-face {
-  font-family: 'BlenderProThin';
-  src: url('./assets/fonts/BlenderPro-Thin.ttf') format('truetype');
+    font-family: 'BlenderProThin';
+    src: url('./assets/fonts/BlenderPro-Thin.ttf') format('truetype');
 }
 
 main {
-  width: 100%;
-  text-align: center;
-  text-shadow: 5px 5px 5px #000000;
-  font-family: 'BlenderProThin', cursive;
-  width: 100%;
-  /* min-height: auto; */
-  text-align: center;
-  font-size: 25px;
-  /*font-family: 'Luxurious Roman', cursive;*/
+    width: 100%;
+    text-align: center;
+    text-shadow: 5px 5px 5px #000000;
+    font-family: 'BlenderProThin', cursive;
+    width: 100%;
+    /* min-height: auto; */
+    text-align: center;
+    font-size: 25px;
+    /*font-family: 'Luxurious Roman', cursive;*/
 }
 
 main p {
-  width: 75%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 main ul > li:first-child {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 main > h1,
 p {
-  margin-top: 20px;
-  text-shadow: #000000 0.2em 0.2em 0.3em;
+    margin-top: 20px;
+    text-shadow: #000000 0.2em 0.2em 0.3em;
 }
 
 main h1 {
-  margin: 20px;
+    margin: 20px;
 }
 
 main img {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 main img:hover {
-  opacity: 5;
+    opacity: 5;
 }
 
 main img {
-  width: 300px;
-  height: 200px;
-  padding-top: 10px;
-  border-radius: 30px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 800px) {
-  main img {
-    width: 750px;
-    height: 400px;
-  }
+    main img {
+        width: 750px;
+        height: 400px;
+    }
 }
 
 footer {
-  width: 100%;
-  color: #ffffff;
-  border-top: 5px solid #ffffff;
-  height: 100px;
-  font-size: 20px;
-  text-align: center;
-  font-family: 'BlenderProThin', sans-serif;
-  /*font-family: 'Amatic SC', cursive;*/
+    width: 100%;
+    color: #ffffff;
+    border-top: 5px solid #ffffff;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'BlenderProThin', sans-serif;
 }
 
 footer p {
-  display: inline-block;
+    display: inline-block;
 }
 
 footer a {
-  color: #b70000;
+    color: #b70000;
 }
 
 header {
-  border-bottom: 3px solid #b70000;
-  height: 250px;
-  width: 100%;
-  margin: 0;
-  /* padding: 0; */
-  font-family: 'Playfair Display', serif;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
+    border-bottom: 3px solid #b70000;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
-header img {
-  padding: 20px;
+/* header img {
+    padding: 20px;
 }
 
 @media (max-width: 600px) {
-  header {
-    height: 300px;
-  }
+    header {
+        height: 300px;
+    }
 
-  header img {
-    padding: 0;
-  }
-}
-
-#logo {
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-}
-
-/* div#eggs.row.col-sm-6 {
-  font-size: 20px;
-  margin-left: 10px;
+    header img {
+        padding: 0;
+    }
 } */
+.menu {
+    background: none;
+}
+#logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
 
 @media (max-width: 800px) {
-  #menu-text {
-    display: none;
-  }
+    #menu-text {
+        display: none;
+    }
 
-  header ol {
-    margin: 0;
-    padding: 0;
-  }
+    header ol {
+        margin: 0;
+        padding: 0;
+    }
 
-  header ol > li > a {
-    margin: 0;
-  }
+    header ol > li > a {
+        margin: 0;
+    }
 
-  #a img {
-    width: 200px;
-    height: 100px;
-  }
+    #a img {
+        width: 200px;
+        height: 100px;
+    }
 }
 
-header ol {
-  margin: 0;
+/* header ol {
+    margin: 0;
 }
-
-/*posision off menu*/
 ol > li {
-  float: right;
-  list-style-type: none;
-  padding: 0;
-  font-size: 50px;
-  text-align: center;
-  margin: 0;
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
 }
-
-/*and posision*/
-/*link off menu*/
 ol > li > a {
-  margin-right: 50px;
-  text-decoration: none;
-  color: #ffffff;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
-/*and link*/
-/*reset of defult color in link*/
 ol > li > a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-/*and off reset*/
 ol > li > ul {
-  list-style-type: none;
-  position: absolute;
-  /* height: 20px; */
-  padding: 0;
-  margin: 0;
-  right: 50px;
-  font-size: 15px;
-  display: none;
+    list-style-type: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    right: 50px;
+    font-size: 15px;
+    display: none;
 }
-
-/*the style off ul in list*/
 ol > li > ul > li {
-  margin-right: 50px;
+    margin-right: 50px;
 }
 
 ol > li > ul > li:hover {
-  border-top: 1px dashed #ffffff;
-  border-bottom: 1px dashed #ffffff;
-  border-left: 1px dashed #ffffff;
-  border-right: 1px dashed #ffffff;
+    border-top: 1px dashed #ffffff;
+    border-bottom: 1px dashed #ffffff;
+    border-left: 1px dashed #ffffff;
+    border-right: 1px dashed #ffffff;
 }
 
-/*and style*/
-/*reset off default color in link*/
 ol > li > ul > li > a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-/*and reset*/
-/*the style off link in option in menu*/
 ul > li > a {
-  text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
 }
-
-/*and style*/
 ol > li:hover > ul {
-  display: block;
-}
+    display: block;
+} */

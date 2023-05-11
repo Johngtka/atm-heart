@@ -1,39 +1,61 @@
 <header>
-  <div id="logo">
-    <div id="a">
-      <img
-        routerLink="/main"
-        src="assets/img/logo.png"
-        title="Logo"
-        alt="Logo"
-      />
+    <div id="logo">
+        <div id="a">
+            <img
+                routerLink="/main"
+                src="assets/img/logo.png"
+                title="Logo"
+                alt="Logo"
+            />
+        </div>
     </div>
-  </div>
-  <ol>
-    <li>
-      <a href="#"
-        ><span id="menu-text">{{ 'MENU.OPT0' | translate }}</span> &#9776;</a
-      >
-      <ul>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" class="menu">
+        <button mat-menu-item routerLink="/main">
+            {{ 'MENU.OPT1' | translate }}
+        </button>
+        <button mat-menu-item routerLink="/char">
+            {{ 'MENU.OPT2' | translate }}
+        </button>
+        <button mat-menu-item routerLink="/weap">
+            {{ 'MENU.OPT3' | translate }}
+        </button>
+        <button mat-menu-item routerLink="/creat">
+            {{ 'MENU.OPT4' | translate }}
+        </button>
+        <button mat-menu-item routerLink="/locat">
+            {{ 'MENU.OPT5' | translate }}
+        </button>
+        <button mat-menu-item routerLink="/vid">
+            {{ 'MENU.OPT6' | translate }}
+        </button>
+    </mat-menu>
+
+    <!-- <ol>
         <li>
-          <a routerLink="/main">{{ 'MENU.OPT1' | translate }}</a>
+            <a href="#"><span id="menu-text"></span> &#9776;</a>
+            <ul>
+                <li>
+                    <a routerLink="/main">{{ 'MENU.OPT1' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/char">{{ 'MENU.OPT2' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/weap">{{ 'MENU.OPT3' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/creat">{{ 'MENU.OPT4' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/locat">{{ 'MENU.OPT5' | translate }}</a>
+                </li>
+                <li>
+                    <a routerLink="/vid">{{ 'MENU.OPT6' | translate }}</a>
+                </li>
+            </ul>
         </li>
-        <li>
-          <a routerLink="/char">{{ 'MENU.OPT2' | translate }}</a>
-        </li>
-        <li>
-          <a routerLink="/weap">{{ 'MENU.OPT3' | translate }}</a>
-        </li>
-        <li>
-          <a routerLink="/creat">{{ 'MENU.OPT4' | translate }}</a>
-        </li>
-        <li>
-          <a routerLink="/locat">{{ 'MENU.OPT5' | translate }}</a>
-        </li>
-        <li>
-          <a routerLink="/vid">{{ 'MENU.OPT6' | translate }}</a>
-        </li>
-      </ul>
-    </li>
-  </ol>
+    </ol> -->
 </header>
