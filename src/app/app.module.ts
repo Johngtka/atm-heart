@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatIconModule } from '@angular/material/icon';
-import { MatMenuModule } from '@angular/material/menu';
 
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslateLoader } from '@ngx-translate/core';
@@ -32,12 +31,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 const navigatorLang = navigator.language.split('-')[0];
 const supportedLang = ['pl', 'en', 'ru'];
 const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en';
-const materialModules = [
-    MatButtonModule,
-    MatSnackBarModule,
-    MatIconModule,
-    MatMenuModule,
-];
+const materialModules = [MatButtonModule, MatSnackBarModule, MatIconModule];
 
 @NgModule({
     declarations: [

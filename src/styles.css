@@ -109,7 +109,7 @@ header {
     padding: 0;
 }
 
-/* header img {
+header img {
     padding: 20px;
 }
 
@@ -121,10 +121,20 @@ header {
     header img {
         padding: 0;
     }
-} */
-.menu {
-    background: none;
 }
+.menu {
+    padding-top: 20px;
+    padding-right: 40px;
+    display: block;
+}
+.menu button {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    display: block;
+    width: auto;
+}
+
 #logo {
     float: left;
     margin: 0;
