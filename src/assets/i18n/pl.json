@@ -1,104 +1,104 @@
 {
-  "MENU": {
-    "OPT0": "MENU",
-    "OPT1": "Strona Główna",
-    "OPT2": "Postacie",
-    "OPT3": "Bronie",
-    "OPT4": "Stworzenia",
-    "OPT5": "Lokacje",
-    "OPT6": "Video",
-    "OPT7": "Aktualizacje"
-  },
-  "HEADERS": {
-    "1": "AGENT P-3",
-    "2": "DOSSIER №0453-1",
-    "3": "RAILGUN",
-    "4": "MA-9 BELIASH",
-    "5": "Pavlov Complex"
-  },
-  "MAIN": {
-    "B1": "Dmitriy Sergeevich Sechenov uzyskuje doktorat i pracę w Instytucie Badań nad mózgiem „Akademia Nauk Medycznych” ZSRR na Wydziale „Natura Intelektu”. Sechenov ma przywrócić dawną efektywną pracę naukową instytutu. Mając to na uwadze, prof. Sechenov tworzy nową kohortę naukowców, z których wielu podziela jego filozofię. W tym samym roku instytut badań mózgu rozpoczął projekt „Crowd-Man”, którego celem jest stworzenie nowego typu człowieka, który nie ma indywidualizmu ani życia prywatnego.",
-    "B2": "ZSRR rozpoczyna wojnę z Niemcami na terytorium Polski. Produkcja robotów wojskowych na dużą skalę, przy jednoczesnym pełnym i całkowitym unowocześnieniu technologii ich sterowania, wymaga kolosalnych inwestycji finansowych. Rząd ZSRR uważa projekt za stratę netto i bez perspektyw.",
-    "B3": "Kapitulacja nazistów. ZSRR okupuje terytoria niemieckie. Straty w czasie wojny były zdumiewające. 200 milionów obywateli ZSRR zginęło. Ludność Związku Radzieckiego i krajów europejskich nie jest już proporcjonalna do zajmowanych przez nie obszarów ani do potrzeb ich gospodarek. Sechenov zostaje szybko mianowany szefem programu rozwoju robotyki, aby zrekompensować brak siły roboczej. 1948 Udane uruchomienie sieci „Collectiv 1.0” w obiekcie №3826. Postęp w rozwoju robotyki jest oszałamiający i daje fantastyczne rezultaty. Związek Radziecki rozpoczyna masowy eksport robotów do wszystkich krajów europejskich po minimalnych cenach.",
-    "B4": "Pomyślne uruchomienie sieci neuronowej Team 1.0 na terenie Enterprise 3826. Robotyka ZSRR czyni znaczne postępy i wysokie wyniki. Związek Radziecki rozpoczyna masową dostawę robotów dla wszystkich Kraje europejskie po cenach minimalnych.",
-    "B5": "W tym samym roku Sechenov dokonuje niesamowitego przełomu w badaniu neuropolimerów. Tworzy proces mimikrycznej adaptacji, czyli ekstrakcji stabilnej sieci neuropolimerowej z żywych stworzeń. Odtąd cybernetyczna powłoka polimerów staje się drugorzędna, a neuropolimer jest teraz niezależnym modułem programowalnym. To odkrycie jest tym, co prowadzi Sechenova do stworzenia „Collectiv 2.0”. Kompleks „Chelomey” zostaje przeniesiony na stację lotniczą „Icarus” i uniesiony w powietrze.",
-    "B6": "Radziecki łazik księżycowy z powodzeniem podróżuje na Księżyc i z powrotem, przynosząc ze sobą próbkę gleby. Korzystając z otrzymanych kompleksów danych „Wawiłow” i „Pawłow” rozpoczynają badania w zakresie adaptacji roślin i zwierząt do pozaziemskich ciał niebieskich. Stalin umiera. Nikita Chruszczow zostaje sekretarzem generalnym Komitetu Centralnego Partii Komunistycznej.",
-    "B7": "Po serii udanych testów ZSRR rozpoczyna ogólnokrajową szczepionkę przeciwko P. Uruchomienie sieci neuronowej „Collectiv” zaplanowano na poniedziałek 13 czerwca 1955 r. Będą to 55 urodziny Sechenova."
-  },
-  "CHARS": {
-    "B1": "Major Nechaev - oficer do zadań specjalnych i prywatny agent profesora Sechenova. Świetnie radzi sobie w skomplikowanych sytuacjach, czasem brutalnych. Nechaev całe swoje życie poświęcił służbie, a w zamian otrzymał tylko głęboką samotność i liczne rany, zarówno fizyczne, jak i psychiczne. Profesor Sechenov jest jedynym człowiekiem, który traktuje go z ojcowską serdecznością, a agent Nechaev odpłaca mu lojalnością i szacunkiem. Przeszłość agenta specjalnego pozostaje utajniona.",
-    "B2": "Pseudonim „P-3” - jako pluton, trzeci odkryty pierwiastek promieniotwórczy - został nadany majorowi Nechaevowi po tym, jak skończył, ciężko ranny, w laboratorium profesora Sechenova. Obie ręce złamane do łokci, całkowicie złamana lewa noga i silny wstrząs mózgu. Profesor osobiście wzmocnił P-3 metalowymi protezami i przywrócił mu aktywność mózgu. Niestety, P-3 nadal doznał ułamkowej utraty pamięci: nigdy w pełni nie odzyskał wspomnień ze swojej przeszłości."
-  },
-  "WEAPOS": {
-    "B1": "Railgun wykorzystuje siłę elektromagnetyczną Lorentza, zwierając dwie równoległe szyny kierunkowe po krótkim i silnym impulsie elektrycznym. Oryginalne badania nad siłami Lorentza sugerowały użycie przyspieszonego pocisku, który miał być popychany do przodu z prędkością ponaddźwiękową przez ogromne ciśnienie plazmy, powstałe w wyniku potężnego wyładowania łuku elektrycznego. Jednak celem tych badań było zawsze zbudowanie broni energetycznej bez użycia w ogóle prawdziwego pocisku.",
-    "B2": "Ta eksperymentalna broń jest dumą radzieckich inżynierów, pracujących dzień i noc w obiekcie nr 3826. Podwaliny zostały położone w laboratorium przyrządów pomiarowych SAS, prowadzonym przez profesora Arzimowicza, znanego również z udziału w sowieckim projekcie atomowym. W 1943 roku profesor opublikował przełomową metodę elektromagnetycznej separacji izotopów i rozpoczął kolejną rundę badań plazmy wzbogaconego uranu, rozpoczynając tym samym rewolucję w historii zbrojeń ZSRR.",
-    "B3": "Działo działające na czystej energii elektromagnetycznej bez przyspieszonego pocisku może natychmiastowo rozpaść prawie każdy cel w ramach dopuszczalnego marginesu masy. Niszczycielskie możliwości takiej broni zmusiły wiele krajów do całkowitej ponownej oceny swoich najlepszych technologii opancerzenia.",
-    "B4": "Przez długi czas największym mankamentem tego karabinu był jego olbrzymi rozmiar, jednak w 1952 roku Shpagin Design Bureau zaprezentowało uproszczony wariant czołgu - polimerowy EBR-2 oparty na indukcji, dostępny dla ciężkiej piechoty. Na szczęście baterie kombinezonu Nechaeva mogą skutecznie zasilać EBR-2 przez uniwersalny port."
-  },
-  "CREATS": {
-    "B1": "Wielkogabarytowy robot MA-9, używany do prac montażowych i spawalniczych, zdolny do przenoszenia półtonowego ładunku. Producent gwarantuje 20-letnią żywotność. W porównaniu do MA-7 i MA-8, które mogły wykonywać tylko spawanie ręczne lub półautomatyczne, MA-9 wykorzystuje technologię w pełni zautomatyzowanego spawania łukowego w argonie. Ponadto oczekuje się, że MA-10 ostatecznie uzyska certyfikat do spawania laserowego.",
-    "B2": "Dzięki powłoce ze stali / tytanu „Belyash” może pracować w skrajnie niebezpiecznych warunkach: od -75 do +75 ° C. Jego elastyczne podwozie oparte jest na szkielecie szympansa, dzięki czemu maszyna może z łatwością wspinać się po pionowych powierzchniach i belkach. Ciekawostka: Witalij Abałakow, znany mistrz alpinizmu, pomógł w zaprojektowaniu ramion „Belyasha”."
-  },
-  "LOCALS": {
-    "B1": "Powstał w 1944 roku na bazie szpitala wojskowego dla ciężko chorych i weteranów II wojny światowej oraz innych „gorących miejsc”. Był to jeden z pierwszych kompleksów badawczych na terenie zakładu nr 3826. Główne kierunki badań kompleksu to: chemia organiczna i biomolekularna, wirusologia, neurobiologia, adaptacja organizmów żywych do nieprzyjaznych środowisk, odbudowa i klonowanie narządów ludzkich. To jest miejsce, w którym zaczęły się badania związane z polimerami. Kompleks „Pawłowa” jest odpowiedzialny za badanie związku między układem nerwowym ludzi i zwierząt a galaretką polimerową. Składa się z 3 głównych warsztatów:",
-    "POINTS": {
-      "1": {
-        "SUBPT": {
-          "0": "1. Archiwa medyczne (w pełni zautomatyzowane):",
-          "1": "Stosowana jest technologia typu III:",
-          "2": "Automatyczny łańcuch produkcyjny.",
-          "3": "maszyny niewymagające udziału człowieka",
-          "4": "Aktualne badania i cele: Sekretne.",
-          "5": "Dostępne technologie: Sekretne."
-        }
-      },
-      "2": {
-        "SUBPT": {
-          "0": "2. Warsztat chirurgiczny:",
-          "1": "Nie zautomatyzowany, kontrolowany przez ludzi.",
-          "2": "Stosowana jest technologia typu I:",
-          "3": "Niska automatyzacja produkcji (konieczny udział człowieka)",
-          "4": "Aktualne badania i cele: Sekretne.",
-          "5": "Dostępne technologie:",
-          "6": "Vova (asystenci laboratoryjni [Vov / a6]) - główny typ robotów, które pracują na oddziale chirurgicznym.",
-          "7": "Vova, w przeciwieństwie do Rafika (Raf / 9), jest używana do skomplikowanych procedur chirurgicznych i może być bardzo precyzyjna."
-        }
-      },
-      "3": {
-        "SUBPT": {
-          "0": "3. Warsztaty eksperymentalne:",
-          "1": "Nie zautomatyzowane, kontrolowane przez człowieka.",
-          "2": "Stosowana jest technologia typu I:",
-          "3": "Niska automatyzacja produkcji, konieczny udział człowieka",
-          "4": "Aktualne badania i cele: Sekretne.",
-          "5": "Dostępne technologie: Sekretne."
-        }
-      }
-    }
-  },
-  "VIDS": {
-    "SECT": {
-      "1": "Ostatnie Video",
-      "2": "Autorzy",
-      "3": "Polecane"
+    "MENU": {
+        "OPT0": "MENU",
+        "OPT1": "Strona Główna",
+        "OPT2": "Postacie",
+        "OPT3": "Bronie",
+        "OPT4": "Stworzenia",
+        "OPT5": "Lokacje",
+        "OPT6": "Video",
+        "OPT7": "Aktualizacje"
     },
-    "TIT": {
-      "1": "Wszystkie sceny śmierci sowieckiego chłopca",
-      "2": "To jest Atomic Heart - Gameplay",
-      "3": "Najciekawsze momenty prezentacji IGN",
-      "4": "Atomic Heart - Beehive",
-      "5": "Atomic Heart - Tereshkova",
-      "6": "Atomic Heart - MA-9 Belyash Trailer (ENG-RU SUBS)",
-      "7": "Atomic Heart E3 2021",
-      "8": "Czym Jest... Railgun (ENG-RU SUBS)",
-      "9": "Żelmen - scenka"
+    "HEADERS": {
+        "1": "AGENT P-3",
+        "2": "DOSSIER №0453-1",
+        "3": "RAILGUN",
+        "4": "MA-9 BELIASH",
+        "5": "Pavlov Complex"
+    },
+    "MAIN": {
+        "B1": "Dmitriy Sergeevich Sechenov uzyskuje doktorat i pracę w Instytucie Badań nad mózgiem „Akademia Nauk Medycznych” ZSRR na Wydziale „Natura Intelektu”. Sechenov ma przywrócić dawną efektywną pracę naukową instytutu. Mając to na uwadze, prof. Sechenov tworzy nową kohortę naukowców, z których wielu podziela jego filozofię. W tym samym roku instytut badań mózgu rozpoczął projekt „Crowd-Man”, którego celem jest stworzenie nowego typu człowieka, który nie ma indywidualizmu ani życia prywatnego.",
+        "B2": "ZSRR rozpoczyna wojnę z Niemcami na terytorium Polski. Produkcja robotów wojskowych na dużą skalę, przy jednoczesnym pełnym i całkowitym unowocześnieniu technologii ich sterowania, wymaga kolosalnych inwestycji finansowych. Rząd ZSRR uważa projekt za stratę netto i bez perspektyw.",
+        "B3": "Kapitulacja nazistów. ZSRR okupuje terytoria niemieckie. Straty w czasie wojny były zdumiewające. 200 milionów obywateli ZSRR zginęło. Ludność Związku Radzieckiego i krajów europejskich nie jest już proporcjonalna do zajmowanych przez nie obszarów ani do potrzeb ich gospodarek. Sechenov zostaje szybko mianowany szefem programu rozwoju robotyki, aby zrekompensować brak siły roboczej. 1948 Udane uruchomienie sieci „Collectiv 1.0” w obiekcie №3826. Postęp w rozwoju robotyki jest oszałamiający i daje fantastyczne rezultaty. Związek Radziecki rozpoczyna masowy eksport robotów do wszystkich krajów europejskich po minimalnych cenach.",
+        "B4": "Pomyślne uruchomienie sieci neuronowej Team 1.0 na terenie Enterprise 3826. Robotyka ZSRR czyni znaczne postępy i wysokie wyniki. Związek Radziecki rozpoczyna masową dostawę robotów dla wszystkich Kraje europejskie po cenach minimalnych.",
+        "B5": "W tym samym roku Sechenov dokonuje niesamowitego przełomu w badaniu neuropolimerów. Tworzy proces mimikrycznej adaptacji, czyli ekstrakcji stabilnej sieci neuropolimerowej z żywych stworzeń. Odtąd cybernetyczna powłoka polimerów staje się drugorzędna, a neuropolimer jest teraz niezależnym modułem programowalnym. To odkrycie jest tym, co prowadzi Sechenova do stworzenia „Collectiv 2.0”. Kompleks „Chelomey” zostaje przeniesiony na stację lotniczą „Icarus” i uniesiony w powietrze.",
+        "B6": "Radziecki łazik księżycowy z powodzeniem podróżuje na Księżyc i z powrotem, przynosząc ze sobą próbkę gleby. Korzystając z otrzymanych kompleksów danych „Wawiłow” i „Pawłow” rozpoczynają badania w zakresie adaptacji roślin i zwierząt do pozaziemskich ciał niebieskich. Stalin umiera. Nikita Chruszczow zostaje sekretarzem generalnym Komitetu Centralnego Partii Komunistycznej.",
+        "B7": "Po serii udanych testów ZSRR rozpoczyna ogólnokrajową szczepionkę przeciwko P. Uruchomienie sieci neuronowej „Collectiv” zaplanowano na poniedziałek 13 czerwca 1955 r. Będą to 55 urodziny Sechenova."
+    },
+    "CHARS": {
+        "B1": "Major Nechaev - oficer do zadań specjalnych i prywatny agent profesora Sechenova. Świetnie radzi sobie w skomplikowanych sytuacjach, czasem brutalnych. Nechaev całe swoje życie poświęcił służbie, a w zamian otrzymał tylko głęboką samotność i liczne rany, zarówno fizyczne, jak i psychiczne. Profesor Sechenov jest jedynym człowiekiem, który traktuje go z ojcowską serdecznością, a agent Nechaev odpłaca mu lojalnością i szacunkiem. Przeszłość agenta specjalnego pozostaje utajniona.",
+        "B2": "Pseudonim „P-3” - jako pluton, trzeci odkryty pierwiastek promieniotwórczy - został nadany majorowi Nechaevowi po tym, jak skończył, ciężko ranny, w laboratorium profesora Sechenova. Obie ręce złamane do łokci, całkowicie złamana lewa noga i silny wstrząs mózgu. Profesor osobiście wzmocnił P-3 metalowymi protezami i przywrócił mu aktywność mózgu. Niestety, P-3 nadal doznał ułamkowej utraty pamięci: nigdy w pełni nie odzyskał wspomnień ze swojej przeszłości."
+    },
+    "WEAPOS": {
+        "B1": "Railgun wykorzystuje siłę elektromagnetyczną Lorentza, zwierając dwie równoległe szyny kierunkowe po krótkim i silnym impulsie elektrycznym. Oryginalne badania nad siłami Lorentza sugerowały użycie przyspieszonego pocisku, który miał być popychany do przodu z prędkością ponaddźwiękową przez ogromne ciśnienie plazmy, powstałe w wyniku potężnego wyładowania łuku elektrycznego. Jednak celem tych badań było zawsze zbudowanie broni energetycznej bez użycia w ogóle prawdziwego pocisku.",
+        "B2": "Ta eksperymentalna broń jest dumą radzieckich inżynierów, pracujących dzień i noc w obiekcie nr 3826. Podwaliny zostały położone w laboratorium przyrządów pomiarowych SAS, prowadzonym przez profesora Arzimowicza, znanego również z udziału w sowieckim projekcie atomowym. W 1943 roku profesor opublikował przełomową metodę elektromagnetycznej separacji izotopów i rozpoczął kolejną rundę badań plazmy wzbogaconego uranu, rozpoczynając tym samym rewolucję w historii zbrojeń ZSRR.",
+        "B3": "Działo działające na czystej energii elektromagnetycznej bez przyspieszonego pocisku może natychmiastowo rozpaść prawie każdy cel w ramach dopuszczalnego marginesu masy. Niszczycielskie możliwości takiej broni zmusiły wiele krajów do całkowitej ponownej oceny swoich najlepszych technologii opancerzenia.",
+        "B4": "Przez długi czas największym mankamentem tego karabinu był jego olbrzymi rozmiar, jednak w 1952 roku Shpagin Design Bureau zaprezentowało uproszczony wariant czołgu - polimerowy EBR-2 oparty na indukcji, dostępny dla ciężkiej piechoty. Na szczęście baterie kombinezonu Nechaeva mogą skutecznie zasilać EBR-2 przez uniwersalny port."
+    },
+    "CREATS": {
+        "B1": "Wielkogabarytowy robot MA-9, używany do prac montażowych i spawalniczych, zdolny do przenoszenia półtonowego ładunku. Producent gwarantuje 20-letnią żywotność. W porównaniu do MA-7 i MA-8, które mogły wykonywać tylko spawanie ręczne lub półautomatyczne, MA-9 wykorzystuje technologię w pełni zautomatyzowanego spawania łukowego w argonie. Ponadto oczekuje się, że MA-10 ostatecznie uzyska certyfikat do spawania laserowego.",
+        "B2": "Dzięki powłoce ze stali / tytanu „Belyash” może pracować w skrajnie niebezpiecznych warunkach: od -75 do +75 ° C. Jego elastyczne podwozie oparte jest na szkielecie szympansa, dzięki czemu maszyna może z łatwością wspinać się po pionowych powierzchniach i belkach. Ciekawostka: Witalij Abałakow, znany mistrz alpinizmu, pomógł w zaprojektowaniu ramion „Belyasha”."
+    },
+    "LOCALS": {
+        "B1": "Powstał w 1944 roku na bazie szpitala wojskowego dla ciężko chorych i weteranów II wojny światowej oraz innych „gorących miejsc”. Był to jeden z pierwszych kompleksów badawczych na terenie zakładu nr 3826. Główne kierunki badań kompleksu to: chemia organiczna i biomolekularna, wirusologia, neurobiologia, adaptacja organizmów żywych do nieprzyjaznych środowisk, odbudowa i klonowanie narządów ludzkich. To jest miejsce, w którym zaczęły się badania związane z polimerami. Kompleks „Pawłowa” jest odpowiedzialny za badanie związku między układem nerwowym ludzi i zwierząt a galaretką polimerową. Składa się z 3 głównych warsztatów:",
+        "POINTS": {
+            "1": {
+                "SUBPT": {
+                    "0": "1. Archiwa medyczne (w pełni zautomatyzowane):",
+                    "1": "Stosowana jest technologia typu III:",
+                    "2": "Automatyczny łańcuch produkcyjny.",
+                    "3": "maszyny niewymagające udziału człowieka",
+                    "4": "Aktualne badania i cele: Sekretne.",
+                    "5": "Dostępne technologie: Sekretne."
+                }
+            },
+            "2": {
+                "SUBPT": {
+                    "0": "2. Warsztat chirurgiczny:",
+                    "1": "Nie zautomatyzowany, kontrolowany przez ludzi.",
+                    "2": "Stosowana jest technologia typu I:",
+                    "3": "Niska automatyzacja produkcji (konieczny udział człowieka)",
+                    "4": "Aktualne badania i cele: Sekretne.",
+                    "5": "Dostępne technologie:",
+                    "6": "Vova (asystenci laboratoryjni [Vov / a6]) - główny typ robotów, które pracują na oddziale chirurgicznym.",
+                    "7": "Vova, w przeciwieństwie do Rafika (Raf / 9), jest używana do skomplikowanych procedur chirurgicznych i może być bardzo precyzyjna."
+                }
+            },
+            "3": {
+                "SUBPT": {
+                    "0": "3. Warsztaty eksperymentalne:",
+                    "1": "Nie zautomatyzowane, kontrolowane przez człowieka.",
+                    "2": "Stosowana jest technologia typu I:",
+                    "3": "Niska automatyzacja produkcji, konieczny udział człowieka",
+                    "4": "Aktualne badania i cele: Sekretne.",
+                    "5": "Dostępne technologie: Sekretne."
+                }
+            }
+        }
+    },
+    "VIDS": {
+        "SECT": {
+            "1": "Ostatnie Video",
+            "2": "Autorzy",
+            "3": "Polecane"
+        },
+        "TIT": {
+            "1": "Wszystkie sceny śmierci sowieckiego chłopca",
+            "2": "To jest Atomic Heart - Gameplay",
+            "3": "Najciekawsze momenty prezentacji IGN",
+            "4": "Atomic Heart - Beehive",
+            "5": "Atomic Heart - Tereshkova",
+            "6": "Atomic Heart - MA-9 Belyash Trailer (ENG-RU SUBS)",
+            "7": "Atomic Heart E3 2021",
+            "8": "Czym Jest... Railgun (ENG-RU SUBS)",
+            "9": "Żelmen - scenka"
+        }
+    },
+    "FOOTER": {
+        "CON": "Kontakt z nami: "
+    },
+    "COOKIE_BAR": {
+        "CONTENT": "Na tej stronie używamy plików cookie",
+        "CLOSE": "Akceptuj"
     }
-  },
-  "FOOTER": {
-    "CON": "Kontakt z nami: "
-  },
-  "COOKIE_BAR": {
-    "CONTENT": "Na tej stronie używamy plików cookie",
-    "CLOSE": "Akceptuj"
-  }
 }
