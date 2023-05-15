@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
-    selector: 'app-locations',
-    templateUrl: './locations.component.html',
+  selector: 'app-locations',
+  templateUrl: './locations.component.html',
 })
 export class LocationsComponent {}

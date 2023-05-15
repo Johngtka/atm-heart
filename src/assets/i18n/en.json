@@ -1,104 +1,104 @@
 {
-    "MENU": {
-        "OPT0": "MENU",
-        "OPT1": "Home",
-        "OPT2": "Сharacters",
-        "OPT3": "Weapons",
-        "OPT4": "Creatures",
-        "OPT5": "Locations",
-        "OPT6": "Video",
-        "OPT7": "Updates"
-    },
-    "HEADERS": {
-        "1": "AGENT P-3",
-        "2": "DOSSIER №0453-1",
-        "3": "RAILGUN",
-        "4": "MA-9 BELIASH",
-        "5": "Pavlov Complex"
-    },
-    "MAIN": {
-        "B1": "Dmitriy Sergeevich Sechenov obtains a doctorate and a job at the Brain Research Institute „Academy of Medical Sciences” of the USSR at the Department of „Nature of Intellect”. Sechenov is expected to restore the institute's formerly effective scientific work. With this in mind, Prof. Sechenov is creating a new cohort of scientists, many of whom share his philosophy. In the same year, the brain research institute launched the „Crowd-Man” project, which aims to create a new type of person who has no individualism or private life",
-        "B2": "The USSR is launching a war against Germany on Polish territory. Large-scale production of military robots, while fully and completely upgrading their control technology, requires colossal financial investment. The USSR government considers the project a net loss and without prospects.",
-        "B3": "Nazi capitulation. The USSR occupies German territories. The losses during the war were staggering. 200 million citizens of the USSR died. The populations of the Soviet Union and European countries are no longer commensurate with the areas they occupy or the needs of their economies. Sechenov is quickly appointed head of the robotics development program to compensate for the lack of manpower. 1948 Successful launch of „Collectiv 1.0” network at facility №3826 Progress in robotics development is staggering with fantastic results. The Soviet Union begins mass export of robots to all European countries at minimal prices.",
-        "B4": "Successful launch of Team 1.0 neural network at Enterprise 3826. USSR robotics makes significant progress and high performance. Soviet Union begins mass delivery of robots to all European countries at minimum prices.",
-        "B5": "In the same year, Sechenov makes an amazing breakthrough in the study of neuropolymers. He creates the process of mimicry adaptation, which is the extraction of a stable neuropolymer network from living creatures. Henceforth, the cybernetic shell of polymers becomes secondary, and the neuropolymer is now an independent programmable module. This discovery is what leads Sechenov to create „Collectiv 2.0”. The „Chelomey” complex is transferred to the ”Icarus” air station and lifted into the air.",
-        "B6": "A Soviet lunar rover successfully travels to the Moon and back, bringing with it a soil sample. Using the data complexes obtained, „Vavilov” and „Pavlov” begin research into the adaptation of plants and animals to extraterrestrial celestial bodies. Stalin dies. Nikita Khrushchev becomes General Secretary of the Central Committee of the Communist Party.",
-        "B7": "After a series of successful tests, the USSR is launching a nationwide vaccine against P. The launch of the „Collectiv” neural network is scheduled for Monday, June 13, 1955, which will be Sechenov's 55th birthday."
-    },
-    "CHARS": {
-        "B1": "Major Nechaev - special task officer and private agent of Professor Sechenov. He excels in dealing with complicated situations, sometimes brutal. Nechaev has devoted his entire life to service, and in return he received only deep loneliness and numerous wounds, both physical and psychological. Professor Sechenov is the only man who treats him with fatherly cordiality, and agent Nechaev repays him with loyalty and respect. The special agent's past remains classified.",
-        "B2": "Alias „P-3” - as plutonium, the third discovered radioactive element radioactive element - was given to Major Nechaev after he he ended up, severely injured, in Professor Sechenov's laboratory. Both of his hands broken to the elbows, a completely broken left leg and a severe concussion. The professor personally reinforced P-3 with metal prostheses and restored his brain activity. Unfortunately, P-3 still suffered fractional memory loss: he never fully recovered the memories of his past.."
-    },
-    "WEAPOS": {
-        "B1": "Railgun uses the Lorentz electromagnetic force, short-circuiting two parallel directional rails after a short and strong electrical pulse. The original research on Lorentz forces suggested using an accelerated projectile, which was to be propelled forward at supersonic speeds by the enormous plasma pressure created by the powerful discharge of an of an electric arc. However, the goal of this research was always to build an energy weapon without using a real projectile at all.",
-        "B2": "This experimental weapon is the pride of Soviet engineers, working day and night at facility No. 3826.The foundation was laid at the SAS measuring instrument laboratory, run by Prof. Arzimovich, also known for his involvement in the Soviet atomic project. W 1943, the professor published a groundbreaking method for electromagnetic isotope separation and began another round of plasma research on enriched uranium, thus starting a revolution in the USSR's weapons history.",
-        "B3": "A cannon operating on pure electromagnetic energy without a accelerated projectile can instantly disintegrate almost any target within the within an acceptable mass margin. The destructive capabilities of such weapons have forced many countries to completely re-evaluate their best armor technologies.",
-        "B4": "For a long time, the biggest drawback of this rifle was its enormous size, but in 1952 the Shpagin Design Bureau presented a a simplified variant of the tank - the polymer induction-based EBR-2, available for heavy infantry. Fortunately, the suit's batteries Nechaev can effectively power the EBR-2 through a universal port."
-    },
-    "CREATS": {
-        "B1": "The MA-9 large-scale robot, used for assembly and welding work welding, capable of carrying a half-ton load. Manufacturer guarantees a 20-year service life. Compared to the MA-7 and MA-8, which could perform only manual or semi-automatic welding, the MA-9 uses fully automated argon arc welding technology. In addition, the MA-10 is expected to eventually be certified for welding laser welding.",
-        "B2": "Thanks to the steel / titanium coating, „Belyash” can operate in extremely hazardous conditions: from -75 to +75 ° C. Its flexible chassis is based on a chimpanzee skeleton, so the machine can easily easily climb vertical surfaces and beams. Interesting fact: Vitaly Abalakov, a famous mountaineering champion, helped in the designing the arms of the „Belyash”."
-    },
-    "LOCALS": {
-        "B1": "It was established in 1944 on the basis of a military hospital for seriously ill and World War II veterans and other „hot spots”. It was one of the of the first research complexes on the site No. 3826. The main research directions of the complex are. research directions of the complex were: organic and biomolecular chemistry, virology, neurobiology, adaptation of living organisms to hostile environments, reconstruction and cloning of human organs. This is where polymer-related research began. The „Pavlov” complex is responsible for studying the relationship between the nervous system of nervous system of humans and animals and polymer jelly. It consists of 3 main workshops:",
-        "POINTS": {
-            "1": {
-                "SUBPT": {
-                    "0": "1. Medical archives (fully automated)",
-                    "1": "Type III technology is being used:",
-                    "2": "Automated production chain.",
-                    "3": "Machines that do not require human involvement",
-                    "4": "Current research and goals: Secret.",
-                    "5": "Available technologies: Secret."
-                }
-            },
-            "2": {
-                "SUBPT": {
-                    "0": "2. Surgical Workshop:",
-                    "1": "Not automated, controlled by humans.",
-                    "2": "The Type I-st technology is used:",
-                    "3": "low automation of production (human participation necessary).",
-                    "4": "Current research and objectives: Secreted.",
-                    "5": "Available technologies:",
-                    "6": "Vova (lab assistants [Vov/a6]) – a main type of robots, which works in the surgical department.",
-                    "7": "Vova, unlike Rafika (Raf / 9), is used for complex surgical procedures and can be very precise."
-                }
-            },
-            "3": {
-                "SUBPT": {
-                    "0": "3. Experimental workshops:",
-                    "1": "Not automated, controlled by a human.",
-                    "2": "Type I-st technology is used:",
-                    "3": "Low automation of production, necessary human participation",
-                    "4": "Current research and goals: Secret.",
-                    "5": "Available technologies: Secret."
-                }
-            }
+  "MENU": {
+    "OPT0": "MENU",
+    "OPT1": "Home",
+    "OPT2": "Сharacters",
+    "OPT3": "Weapons",
+    "OPT4": "Creatures",
+    "OPT5": "Locations",
+    "OPT6": "Video",
+    "OPT7": "Updates"
+  },
+  "HEADERS": {
+    "1": "AGENT P-3",
+    "2": "DOSSIER №0453-1",
+    "3": "RAILGUN",
+    "4": "MA-9 BELIASH",
+    "5": "Pavlov Complex"
+  },
+  "MAIN": {
+    "B1": "Dmitriy Sergeevich Sechenov obtains a doctorate and a job at the Brain Research Institute „Academy of Medical Sciences” of the USSR at the Department of „Nature of Intellect”. Sechenov is expected to restore the institute's formerly effective scientific work. With this in mind, Prof. Sechenov is creating a new cohort of scientists, many of whom share his philosophy. In the same year, the brain research institute launched the „Crowd-Man” project, which aims to create a new type of person who has no individualism or private life",
+    "B2": "The USSR is launching a war against Germany on Polish territory. Large-scale production of military robots, while fully and completely upgrading their control technology, requires colossal financial investment. The USSR government considers the project a net loss and without prospects.",
+    "B3": "Nazi capitulation. The USSR occupies German territories. The losses during the war were staggering. 200 million citizens of the USSR died. The populations of the Soviet Union and European countries are no longer commensurate with the areas they occupy or the needs of their economies. Sechenov is quickly appointed head of the robotics development program to compensate for the lack of manpower. 1948 Successful launch of „Collectiv 1.0” network at facility №3826 Progress in robotics development is staggering with fantastic results. The Soviet Union begins mass export of robots to all European countries at minimal prices.",
+    "B4": "Successful launch of Team 1.0 neural network at Enterprise 3826. USSR robotics makes significant progress and high performance. Soviet Union begins mass delivery of robots to all European countries at minimum prices.",
+    "B5": "In the same year, Sechenov makes an amazing breakthrough in the study of neuropolymers. He creates the process of mimicry adaptation, which is the extraction of a stable neuropolymer network from living creatures. Henceforth, the cybernetic shell of polymers becomes secondary, and the neuropolymer is now an independent programmable module. This discovery is what leads Sechenov to create „Collectiv 2.0”. The „Chelomey” complex is transferred to the ”Icarus” air station and lifted into the air.",
+    "B6": "A Soviet lunar rover successfully travels to the Moon and back, bringing with it a soil sample. Using the data complexes obtained, „Vavilov” and „Pavlov” begin research into the adaptation of plants and animals to extraterrestrial celestial bodies. Stalin dies. Nikita Khrushchev becomes General Secretary of the Central Committee of the Communist Party.",
+    "B7": "After a series of successful tests, the USSR is launching a nationwide vaccine against P. The launch of the „Collectiv” neural network is scheduled for Monday, June 13, 1955, which will be Sechenov's 55th birthday."
+  },
+  "CHARS": {
+    "B1": "Major Nechaev - special task officer and private agent of Professor Sechenov. He excels in dealing with complicated situations, sometimes brutal. Nechaev has devoted his entire life to service, and in return he received only deep loneliness and numerous wounds, both physical and psychological. Professor Sechenov is the only man who treats him with fatherly cordiality, and agent Nechaev repays him with loyalty and respect. The special agent's past remains classified.",
+    "B2": "Alias „P-3” - as plutonium, the third discovered radioactive element radioactive element - was given to Major Nechaev after he he ended up, severely injured, in Professor Sechenov's laboratory. Both of his hands broken to the elbows, a completely broken left leg and a severe concussion. The professor personally reinforced P-3 with metal prostheses and restored his brain activity. Unfortunately, P-3 still suffered fractional memory loss: he never fully recovered the memories of his past.."
+  },
+  "WEAPOS": {
+    "B1": "Railgun uses the Lorentz electromagnetic force, short-circuiting two parallel directional rails after a short and strong electrical pulse. The original research on Lorentz forces suggested using an accelerated projectile, which was to be propelled forward at supersonic speeds by the enormous plasma pressure created by the powerful discharge of an of an electric arc. However, the goal of this research was always to build an energy weapon without using a real projectile at all.",
+    "B2": "This experimental weapon is the pride of Soviet engineers, working day and night at facility No. 3826.The foundation was laid at the SAS measuring instrument laboratory, run by Prof. Arzimovich, also known for his involvement in the Soviet atomic project. W 1943, the professor published a groundbreaking method for electromagnetic isotope separation and began another round of plasma research on enriched uranium, thus starting a revolution in the USSR's weapons history.",
+    "B3": "A cannon operating on pure electromagnetic energy without a accelerated projectile can instantly disintegrate almost any target within the within an acceptable mass margin. The destructive capabilities of such weapons have forced many countries to completely re-evaluate their best armor technologies.",
+    "B4": "For a long time, the biggest drawback of this rifle was its enormous size, but in 1952 the Shpagin Design Bureau presented a a simplified variant of the tank - the polymer induction-based EBR-2, available for heavy infantry. Fortunately, the suit's batteries Nechaev can effectively power the EBR-2 through a universal port."
+  },
+  "CREATS": {
+    "B1": "The MA-9 large-scale robot, used for assembly and welding work welding, capable of carrying a half-ton load. Manufacturer guarantees a 20-year service life. Compared to the MA-7 and MA-8, which could perform only manual or semi-automatic welding, the MA-9 uses fully automated argon arc welding technology. In addition, the MA-10 is expected to eventually be certified for welding laser welding.",
+    "B2": "Thanks to the steel / titanium coating, „Belyash” can operate in extremely hazardous conditions: from -75 to +75 ° C. Its flexible chassis is based on a chimpanzee skeleton, so the machine can easily easily climb vertical surfaces and beams. Interesting fact: Vitaly Abalakov, a famous mountaineering champion, helped in the designing the arms of the „Belyash”."
+  },
+  "LOCALS": {
+    "B1": "It was established in 1944 on the basis of a military hospital for seriously ill and World War II veterans and other „hot spots”. It was one of the of the first research complexes on the site No. 3826. The main research directions of the complex are. research directions of the complex were: organic and biomolecular chemistry, virology, neurobiology, adaptation of living organisms to hostile environments, reconstruction and cloning of human organs. This is where polymer-related research began. The „Pavlov” complex is responsible for studying the relationship between the nervous system of nervous system of humans and animals and polymer jelly. It consists of 3 main workshops:",
+    "POINTS": {
+      "1": {
+        "SUBPT": {
+          "0": "1. Medical archives (fully automated)",
+          "1": "Type III technology is being used:",
+          "2": "Automated production chain.",
+          "3": "Machines that do not require human involvement",
+          "4": "Current research and goals: Secret.",
+          "5": "Available technologies: Secret."
         }
-    },
-    "VIDS": {
-        "SECT": {
-            "1": "Latest Video",
-            "2": "Authors",
-            "3": "Recommended"
-        },
-        "TIT": {
-            "1": "All the scenes of the Soviet boy's death",
-            "2": "This is Atomic Heart - Gameplay",
-            "3": "The most interesting moments of the IGN presentation",
-            "4": "Atomic Heart - Beehive",
-            "5": "Atomic Heart - Tereshkova",
-            "6": "Atomic Heart - MA-9 Belyash Trailer (ENG-RU SUBS)",
-            "7": "Atomic Heart E3 2021",
-            "8": "What Is ... Railgun (ENG-RU SUBS)",
-            "9": "Jelly Man - Scene"
+      },
+      "2": {
+        "SUBPT": {
+          "0": "2. Surgical Workshop:",
+          "1": "Not automated, controlled by humans.",
+          "2": "The Type I-st technology is used:",
+          "3": "low automation of production (human participation necessary).",
+          "4": "Current research and objectives: Secreted.",
+          "5": "Available technologies:",
+          "6": "Vova (lab assistants [Vov/a6]) – a main type of robots, which works in the surgical department.",
+          "7": "Vova, unlike Rafika (Raf / 9), is used for complex surgical procedures and can be very precise."
         }
-    },
-    "FOOTER": {
-        "CON": "Contact Us: "
-    },
-    "COOKIE_BAR": {
-        "CONTENT": "We use cookies on this site",
-        "CLOSE": "Accept"
+      },
+      "3": {
+        "SUBPT": {
+          "0": "3. Experimental workshops:",
+          "1": "Not automated, controlled by a human.",
+          "2": "Type I-st technology is used:",
+          "3": "Low automation of production, necessary human participation",
+          "4": "Current research and goals: Secret.",
+          "5": "Available technologies: Secret."
+        }
+      }
     }
+  },
+  "VIDS": {
+    "SECT": {
+      "1": "Latest Video",
+      "2": "Authors",
+      "3": "Recommended"
+    },
+    "TIT": {
+      "1": "All the scenes of the Soviet boy's death",
+      "2": "This is Atomic Heart - Gameplay",
+      "3": "The most interesting moments of the IGN presentation",
+      "4": "Atomic Heart - Beehive",
+      "5": "Atomic Heart - Tereshkova",
+      "6": "Atomic Heart - MA-9 Belyash Trailer (ENG-RU SUBS)",
+      "7": "Atomic Heart E3 2021",
+      "8": "What Is ... Railgun (ENG-RU SUBS)",
+      "9": "Jelly Man - Scene"
+    }
+  },
+  "FOOTER": {
+    "CON": "Contact Us: "
+  },
+  "COOKIE_BAR": {
+    "CONTENT": "We use cookies on this site",
+    "CLOSE": "Accept"
+  }
 }

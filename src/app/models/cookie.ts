@@ -1,4 +1,4 @@
 export interface Cookie {
-    message: string;
-    button: string;
+  message: string
+  button: string
 }

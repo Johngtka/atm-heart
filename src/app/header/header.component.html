@@ -1,38 +1,39 @@
 <header>
-    <div id="logo">
-        <div id="a">
-            <img
-                routerLink="/main"
-                src="assets/img/logo.png"
-                title="Logo"
-                alt="Logo"
-            />
-        </div>
+  <div id="logo">
+    <div id="a">
+      <img
+        routerLink="/main"
+        src="assets/img/logo.png"
+        title="Logo"
+        alt="Logo"
+      />
     </div>
-    <div class="menu">
-        <button mat-button color="white" routerLink="/main">
-            <mat-icon class="mat-18">home</mat-icon>
-            {{ 'MENU.OPT1' | translate }}
-        </button>
-        <button mat-button color="white" routerLink="/char">
-            <mat-icon class="mat-18">diversity_2</mat-icon>
-            {{ 'MENU.OPT2' | translate }}
-        </button>
-        <button mat-button color="white" routerLink="/weap">
-            <mat-icon class="mat-18">webhook</mat-icon>
-            {{ 'MENU.OPT3' | translate }}
-        </button>
-        <button mat-button color="white" routerLink="/creat">
-            <mat-icon class="mat-18">lens_blur</mat-icon>
-            {{ 'MENU.OPT4' | translate }}
-        </button>
-        <button mat-button color="white" routerLink="/locat">
-            <mat-icon class="mat-18">pin_drop</mat-icon>
-            {{ 'MENU.OPT5' | translate }}
-        </button>
-        <button mat-button color="white" routerLink="/vid">
-            <mat-icon class="mat-18">video_library</mat-icon>
-            {{ 'MENU.OPT6' | translate }}
-        </button>
-    </div>
+  </div>
+  <ol>
+    <li>
+      <a href="#"
+        ><span id="menu-text">{{ 'MENU.OPT0' | translate }}</span> &#9776;</a
+      >
+      <ul>
+        <li>
+          <a routerLink="/main">{{ 'MENU.OPT1' | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/char">{{ 'MENU.OPT2' | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/weap">{{ 'MENU.OPT3' | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/creat">{{ 'MENU.OPT4' | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/locat">{{ 'MENU.OPT5' | translate }}</a>
+        </li>
+        <li>
+          <a routerLink="/vid">{{ 'MENU.OPT6' | translate }}</a>
+        </li>
+      </ul>
+    </li>
+  </ol>
 </header>
