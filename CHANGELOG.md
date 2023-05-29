@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.3.0](https://github.com/Johngtka/atm-heart/compare/v1.2.0...v1.3.0) (2023-06-15)
 
-### Features
+### Finish of Project
 
 -   app deploy engine ([#10](https://github.com/Johngtka/atm-heart/issues/10)) ([bffff39](https://github.com/Johngtka/atm-heart/commit/bffff39b1cba6aa56cecdf4d619da362b36b01c7))
 
