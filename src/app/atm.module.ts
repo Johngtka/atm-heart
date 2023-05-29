@@ -25,7 +25,7 @@ import { CookieComponent } from './cookie/cookie.component';
 import { CookieService } from './services/cookie.service';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
-    return new TranslateHttpLoader(httpClient);
+    return new TranslateHttpLoader(httpClient, './assets/i18n/');
 }
 
 const navigatorLang = navigator.language.split('-')[0];
