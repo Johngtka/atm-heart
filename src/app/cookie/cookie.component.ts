@@ -8,7 +8,7 @@ import {
 import { Cookie } from '../models/cookie';
 
 @Component({
-    selector: 'app-cookie',
+    selector: 'atm-cookie',
     templateUrl: './cookie.component.html',
     styleUrls: ['./cookie.component.css'],
 })

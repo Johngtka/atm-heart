@@ -11,8 +11,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AtmRoutingModule } from './atm-routing.module';
+import { AtmComponent } from './atm.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
@@ -35,7 +35,7 @@ const materialModules = [MatButtonModule, MatSnackBarModule, MatIconModule];
 
 @NgModule({
     declarations: [
-        AppComponent,
+        AtmComponent,
         HeaderComponent,
         FooterComponent,
         MainComponent,
@@ -58,13 +58,13 @@ const materialModules = [MatButtonModule, MatSnackBarModule, MatIconModule];
                 deps: [HttpClient],
             },
         }),
-        AppRoutingModule,
+        AtmRoutingModule,
         ...materialModules,
     ],
     providers: [CookieService],
-    bootstrap: [AppComponent],
+    bootstrap: [AtmComponent],
 })
-export class AppModule {
+export class AtmModule {
     constructor(private cookieService: CookieService) {
         setTimeout(() => {
             this.cookieService.snackCookieAlert();
