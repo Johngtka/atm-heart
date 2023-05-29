@@ -6,7 +6,7 @@
         "start": "ng serve",
         "prebuild": "standard-version",
         "build": "ng build -c production --base-href https://johngtka.github.io/atm-heart/",
-        "postbuild": "git push --follow-tags && npx angular-cli-ghpages --dir=dist/atm-heart",
+        "postbuild": "git push --follow-tags && npx angular-cli-ghpages --dir=dist/atomic-heart",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
         "format": "prettier --write ./**/*.{ts,json,html,css}",
