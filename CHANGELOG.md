@@ -2,19 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.3.1](https://github.com/Johngtka/atm-heart/compare/v1.4.0...v1.3.1) (2023-06-14)
-
-## [1.4.0](https://github.com/Johngtka/atm-heart/compare/v1.3.0...v1.4.0) (2023-06-14)
-
-
-### Features
-
-* version tag showing ([#11](https://github.com/Johngtka/atm-heart/issues/11)) ([51b4898](https://github.com/Johngtka/atm-heart/commit/51b4898bdd6d575afd7785f4ee11d3cca4614a0c))
-
-### [1.3.2](https://github.com/Johngtka/atm-heart/compare/v1.3.0...v1.3.2) (2023-06-14)
-
-### [1.3.1](https://github.com/Johngtka/atm-heart/compare/v1.3.0...v1.3.1) (2023-06-14)
-
 ## [1.3.0](https://github.com/Johngtka/atm-heart/compare/v1.2.0...v1.3.0) (2023-06-15)
 
 ### Finish of Project
