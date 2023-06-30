@@ -5,7 +5,7 @@
         "ng": "ng",
         "start": "ng serve",
         "prebuild": "standard-version",
-        "build": "ng build -c production --base-href https://www.atomic-heart.com",
+        "build": "ng build -c production --base-href https://johngtka.github.io/atm-heart/",
         "postbuild": "git push --follow-tags && npx angular-cli-ghpages --dir=dist/atomic-heart",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
