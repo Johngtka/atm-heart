@@ -53,10 +53,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                          "buildTarget": "Atomic-Heart:build:production"
+                            "buildTarget": "Atomic-Heart:build:production"
                         },
                         "development": {
-                          "buildTarget": "Atomic-Heart:build:development"
+                            "buildTarget": "Atomic-Heart:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -64,7 +64,7 @@
                 "extract-i18n": {
                     "builder": "@angular-devkit/build-angular:extract-i18n",
                     "options": {
-                      "buildTarget": "Atomic-Heart:build"
+                        "buildTarget": "Atomic-Heart:build"
                     }
                 },
                 "test": {
