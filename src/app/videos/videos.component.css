@@ -30,8 +30,12 @@
 .vidBtn a {
     width: auto;
 }
+.vidBtn button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .vidBtn {
         display: inline;
     }
