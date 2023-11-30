@@ -1,3 +1,42 @@
 <atm-header></atm-header>
-<router-outlet></router-outlet>
+<section *ngIf="appEndingAlert" class="app-ending">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title
+                ><h1>
+                    {{ 'APP_ALERT.ALERT_CONTENT.H1' | translate }}
+                </h1></mat-card-title
+            >
+            <mat-card-subtitle
+                ><h2>
+                    {{ 'APP_ALERT.ALERT_CONTENT.H2' | translate }}
+                </h2></mat-card-subtitle
+            >
+        </mat-card-header>
+        <mat-card-content>
+            <p>{{ 'APP_ALERT.ALERT_CONTENT.PARAGRAPHS.1' | translate }}</p>
+            <p>{{ 'APP_ALERT.ALERT_CONTENT.PARAGRAPHS.2' | translate }}</p>
+
+            <a href="https://discord.gg/zNTj47X2Xb"
+                ><button mat-raised-button color="primary">
+                    <mat-icon class="mat-18">discord</mat-icon> General Staff
+                </button></a
+            >
+
+            <p>{{ 'APP_ALERT.ALERT_CONTENT.PARAGRAPHS.3' | translate }}</p>
+            <p>{{ 'APP_ALERT.ALERT_CONTENT.PARAGRAPHS.4' | translate }}</p>
+            <p>{{ 'APP_ALERT.ALERT_CONTENT.PARAGRAPHS.5' | translate }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button
+                mat-raised-button
+                (click)="disableEndingAppAlert()"
+                color="warn"
+            >
+                {{ 'APP_ALERT.BUTTON_IGNORE' | translate }}
+            </button>
+        </mat-card-actions>
+    </mat-card>
+</section>
+<router-outlet *ngIf="!appEndingAlert"></router-outlet>
 <atm-footer></atm-footer>

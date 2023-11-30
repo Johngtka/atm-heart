@@ -1,0 +1,53 @@
+.app-ending {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+mat-card {
+    width: 100%;
+    text-align: center;
+    background: none;
+}
+@media screen and (min-width: 1000px) {
+    .app-ending {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+    mat-card {
+        width: 50%;
+        text-align: center;
+        background: none;
+    }
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+}
+mat-card-header h1 {
+    font-size: 40px;
+}
+mat-card-header h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+mat-card p {
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+mat-card-header h1,
+h2 {
+    color: #fff;
+}
+mat-card-actions {
+    justify-content: center;
+}
