@@ -1,4 +1,4 @@
-<header>
+<header *ngIf="!isFooterMobile">
     <div id="logo">
         <div id="a">
             <img
@@ -33,6 +33,38 @@
         <button mat-button style="color: #fff" routerLink="/vid">
             <mat-icon class="mat-18">video_library</mat-icon>
             {{ 'MENU.OPT6' | translate }}
+        </button>
+    </div>
+</header>
+<header *ngIf="isFooterMobile" class="headerForMobiles">
+    <div id="logoForMobiles">
+        <div id="a">
+            <img
+                routerLink="/main"
+                src="./assets/img/logo.png"
+                title="Logo"
+                alt="Logo"
+            />
+        </div>
+    </div>
+    <div class="menuForMobile">
+        <button mat-icon-button style="color: #fff" routerLink="/main">
+            <mat-icon>home</mat-icon>
+        </button>
+        <button mat-icon-button style="color: #fff" routerLink="/char">
+            <mat-icon>diversity_2</mat-icon>
+        </button>
+        <button mat-icon-button style="color: #fff" routerLink="/weap">
+            <mat-icon>webhook</mat-icon>
+        </button>
+        <button mat-icon-button style="color: #fff" routerLink="/creat">
+            <mat-icon>lens_blur</mat-icon>
+        </button>
+        <button mat-icon-button style="color: #fff" routerLink="/locat">
+            <mat-icon>pin_drop</mat-icon>
+        </button>
+        <button mat-icon-button style="color: #fff" routerLink="/vid">
+            <mat-icon>video_library</mat-icon>
         </button>
     </div>
 </header>
