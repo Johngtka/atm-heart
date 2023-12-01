@@ -1,14 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url('./assets/img/background.png');
-    background-color: black;
+    margin: 0;
     height: 100%;
     color: white;
+    background-image: url('./assets/img/background.png');
+    background-color: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
 }
 
 @font-face {
@@ -18,14 +18,10 @@ body {
 
 main {
     width: 100%;
+    font-size: 25px;
     text-align: center;
     text-shadow: 5px 5px 5px #000000;
     font-family: 'BlenderProThin', cursive;
-    width: 100%;
-    /* min-height: auto; */
-    text-align: center;
-    font-size: 25px;
-    /*font-family: 'Luxurious Roman', cursive;*/
 }
 
 main p {
@@ -82,11 +78,11 @@ main img {
 
 footer {
     width: 100%;
-    color: #ffffff;
-    border-top: 5px solid #ffffff;
     height: 100px;
     font-size: 20px;
+    color: #ffffff;
     text-align: center;
+    border-top: 5px solid #ffffff;
     font-family: 'BlenderProThin', sans-serif;
 }
 
@@ -99,65 +95,54 @@ footer a {
 }
 
 header {
-    border-bottom: 3px solid #b70000;
-    height: 250px;
     width: 100%;
-    margin: 0;
-    font-family: 'Playfair Display', serif;
+    height: auto;
     display: flex;
-    justify-content: space-between;
     padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    border-bottom: 3px solid #b70000;
+    font-family: 'Playfair Display', serif;
+}
+
+.headerForMobiles {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logoForMobiles {
+    width: 200px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuForMobile {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
 }
 
 header img {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
-    header {
-        height: 300px;
-    }
-
-    header img {
-        padding: 0;
-    }
-}
 .menu {
+    display: block;
     padding-top: 20px;
     padding-right: 40px;
-    display: block;
 }
 .menu button {
+    width: auto;
+    display: block;
+    font-size: 15px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 15px;
-    display: block;
-    width: auto;
 }
 
 #logo {
-    float: left;
+    width: 200px;
     margin: 0;
     padding: 0;
-    width: 200px;
-}
-
-@media (max-width: 800px) {
-    #menu-text {
-        display: none;
-    }
-
-    header ol {
-        margin: 0;
-        padding: 0;
-    }
-
-    header ol > li > a {
-        margin: 0;
-    }
-
-    #a img {
-        width: 200px;
-        height: 100px;
-    }
+    float: left;
 }

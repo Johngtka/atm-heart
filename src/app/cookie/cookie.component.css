@@ -1,6 +1,6 @@
 .cookieBar {
-    padding: 5px;
     display: flex;
+    padding: 5px;
     align-items: center;
 }
 .cookieBar p {

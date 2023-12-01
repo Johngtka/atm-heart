@@ -1,11 +1,11 @@
 #widget {
-    padding: 0;
     height: 170px;
+    padding: 0;
 }
 
 .element {
-    padding: 0;
     height: 230px;
+    padding: 0;
 }
 
 .wrapper {
@@ -15,12 +15,12 @@
 }
 
 .vidFrame {
-    height: 200px;
-    border-radius: 5%;
-    margin: 10px;
     width: 350px;
-    overflow: hidden;
+    height: 200px;
+    margin: 10px;
     text-align: center;
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .vidBtn {
@@ -46,10 +46,10 @@
 }
 
 .vidWrapper {
+    text-align: center;
     transition: 0.5s all;
     float: left;
     overflow: hidden;
-    text-align: center;
 }
 
 .authWrapper a {
@@ -67,8 +67,8 @@
 }
 
 .col a {
+    width: auto;
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
 }
