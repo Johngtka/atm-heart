@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/Johngtka/atm-heart/compare/v1.5.0...v1.6.0) (2023-12-01)
+
+
+### Features
+
+* added ending project aplet to app with button for opening app ([#14](https://github.com/Johngtka/atm-heart/issues/14)) ([70e49d7](https://github.com/Johngtka/atm-heart/commit/70e49d7b642b7b30c5f708b0266224aabc34c1bb))
+* new view of app header component for mobile devices with code compress ([#15](https://github.com/Johngtka/atm-heart/issues/15)) ([3e4ed51](https://github.com/Johngtka/atm-heart/commit/3e4ed512ba2985ca321ea27fdccb74768915b3cb))
+
 ## [1.5.0](https://github.com/Johngtka/atm-heart/compare/v1.4.0...v1.5.0) (2023-06-30)
 
 
