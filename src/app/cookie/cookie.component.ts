@@ -11,6 +11,7 @@ import { Cookie } from '../models/cookie';
     selector: 'atm-cookie',
     templateUrl: './cookie.component.html',
     styleUrls: ['./cookie.component.css'],
+    standalone: false,
 })
 export class CookieComponent {
     constructor(

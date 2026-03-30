@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
     selector: 'atm-root',
     templateUrl: './atm.component.html',
     styleUrls: ['./atm.component.css'],
+    standalone: false,
 })
 export class AtmComponent implements OnInit {
     appEndingAlert!: boolean;
