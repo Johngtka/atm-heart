@@ -8,7 +8,6 @@ import {
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatButtonModule } from '@angular/material/button';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 
@@ -26,8 +25,6 @@ import { WeaponsComponent } from './weapons/weapons.component';
 import { CreaturesComponent } from './creatures/creatures.component';
 import { LocationsComponent } from './locations/locations.component';
 import { VideosComponent } from './videos/videos.component';
-import { CookieComponent } from './cookie/cookie.component';
-import { CookieService } from './services/cookie.service';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
     return new TranslateHttpLoader(httpClient, './assets/i18n/');
@@ -35,13 +32,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 
 const navigatorLang = navigator.language.split('-')[0];
 const supportedLang = ['pl', 'en', 'ru'];
-const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'en';
-const materialModules = [
-    MatButtonModule,
-    MatSnackBarModule,
-    MatIconModule,
-    MatCardModule,
-];
+const lang = supportedLang.includes(navigatorLang) ? navigatorLang : 'pl';
+const materialModules = [MatButtonModule, MatIconModule, MatCardModule];
 
 @NgModule({
     declarations: [
@@ -54,7 +46,6 @@ const materialModules = [
         CreaturesComponent,
         LocationsComponent,
         VideosComponent,
-        CookieComponent,
     ],
     bootstrap: [AtmComponent],
     imports: [
@@ -71,12 +62,6 @@ const materialModules = [
         AtmRoutingModule,
         ...materialModules,
     ],
-    providers: [CookieService, provideHttpClient(withInterceptorsFromDi())],
+    providers: [provideHttpClient(withInterceptorsFromDi())],
 })
-export class AtmModule {
-    constructor(private cookieService: CookieService) {
-        setTimeout(() => {
-            this.cookieService.snackCookieAlert();
-        }, 1000);
-    }
-}
+export class AtmModule {}
