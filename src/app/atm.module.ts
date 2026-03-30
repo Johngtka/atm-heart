@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {
+    HttpClient,
+    provideHttpClient,
+    withInterceptorsFromDi,
+} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatButtonModule } from '@angular/material/button';
@@ -52,9 +56,9 @@ const materialModules = [
         VideosComponent,
         CookieComponent,
     ],
+    bootstrap: [AtmComponent],
     imports: [
         BrowserModule,
-        HttpClientModule,
         BrowserAnimationsModule,
         TranslateModule.forRoot({
             defaultLanguage: lang,
@@ -67,8 +71,7 @@ const materialModules = [
         AtmRoutingModule,
         ...materialModules,
     ],
-    providers: [CookieService],
-    bootstrap: [AtmComponent],
+    providers: [CookieService, provideHttpClient(withInterceptorsFromDi())],
 })
 export class AtmModule {
     constructor(private cookieService: CookieService) {
