@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import {
+    HttpClient,
+    provideHttpClient,
+    withInterceptorsFromDi,
+} from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatButtonModule } from '@angular/material/button';
@@ -43,9 +47,9 @@ const materialModules = [MatButtonModule, MatIconModule, MatCardModule];
         LocationsComponent,
         VideosComponent,
     ],
+    bootstrap: [AtmComponent],
     imports: [
         BrowserModule,
-        HttpClientModule,
         BrowserAnimationsModule,
         TranslateModule.forRoot({
             defaultLanguage: lang,
@@ -58,6 +62,6 @@ const materialModules = [MatButtonModule, MatIconModule, MatCardModule];
         AtmRoutingModule,
         ...materialModules,
     ],
-    bootstrap: [AtmComponent],
+    providers: [provideHttpClient(withInterceptorsFromDi())],
 })
 export class AtmModule {}
