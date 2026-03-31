@@ -30,6 +30,7 @@
         "format": "^0.2.2",
         "husky": "^8.0.3",
         "lint-staged": "^13.2.2",
+        "prettier": "^3.8.1",
         "rxjs": "^7.8.1",
         "standard-version": "^9.5.0",
         "tslib": "^2.3.0",
