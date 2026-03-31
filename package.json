@@ -1,62 +1,62 @@
 {
-  "name": "atomic-heart",
-  "version": "1.6.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "prebuild": "standard-version",
-    "build": "ng build -c production --base-href https://johngtka.github.io/atm-heart/",
-    "postbuild": "git push --follow-tags && npx angular-cli-ghpages --dir=dist/atomic-heart",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "format": "prettier --write ./**/*.{ts,json,html,css}",
-    "prepare": "husky install",
-    "update": "npm update",
-    "frameupate": "ng update"
-  },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^21.2.6",
-    "@angular/cdk": "^21.2.4",
-    "@angular/common": "^21.2.6",
-    "@angular/compiler": "^21.2.6",
-    "@angular/core": "^21.2.6",
-    "@angular/forms": "^21.2.6",
-    "@angular/material": "^21.2.4",
-    "@angular/platform-browser": "^21.2.6",
-    "@angular/platform-browser-dynamic": "^21.2.6",
-    "@angular/router": "^21.2.6",
-    "@ngx-translate/core": "^15.0.0",
-    "@ngx-translate/http-loader": "^8.0.0",
-    "eslint": "^8.54.0",
-    "format": "^0.2.2",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
-    "prettier": "^3.8.1",
-    "rxjs": "^7.8.1",
-    "standard-version": "^9.5.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.15.1"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "^21.2.5",
-    "@angular/cli": "~21.2.5",
-    "@angular/compiler-cli": "^21.2.6",
-    "@types/jasmine": "~4.3.0",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
-    "jasmine-core": "~4.5.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~5.9.3"
-  },
-  "lint-staged": {
-    "*.ts": [
-      "eslint",
-      "prettier --write"
-    ]
-  }
+    "name": "atomic-heart",
+    "version": "1.6.0",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "prebuild": "standard-version",
+        "build": "ng build -c production --base-href https://johngtka.github.io/atm-heart/",
+        "postbuild": "git push --follow-tags && npx angular-cli-ghpages --dir=dist/atomic-heart",
+        "watch": "ng build --watch --configuration development",
+        "test": "ng test",
+        "format": "prettier --write ./**/*.{ts,json,html,css}",
+        "prepare": "husky install",
+        "update": "npm update",
+        "frameupate": "ng update"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/animations": "^21.2.6",
+        "@angular/cdk": "^21.2.4",
+        "@angular/common": "^21.2.6",
+        "@angular/compiler": "^21.2.6",
+        "@angular/core": "^21.2.6",
+        "@angular/forms": "^21.2.6",
+        "@angular/material": "^21.2.4",
+        "@angular/platform-browser": "^21.2.6",
+        "@angular/platform-browser-dynamic": "^21.2.6",
+        "@angular/router": "^21.2.6",
+        "@ngx-translate/core": "^15.0.0",
+        "@ngx-translate/http-loader": "^8.0.0",
+        "eslint": "^8.54.0",
+        "format": "^0.2.2",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.2",
+        "prettier": "^3.8.1",
+        "rxjs": "^7.8.1",
+        "standard-version": "^9.5.0",
+        "tslib": "^2.3.0",
+        "zone.js": "~0.15.1"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^21.2.5",
+        "@angular/cli": "~21.2.5",
+        "@angular/compiler-cli": "^21.2.6",
+        "@types/jasmine": "~4.3.0",
+        "@typescript-eslint/eslint-plugin": "^5.52.0",
+        "@typescript-eslint/parser": "^5.52.0",
+        "jasmine-core": "~4.5.0",
+        "karma": "~6.4.0",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage": "~2.2.0",
+        "karma-jasmine": "~5.1.0",
+        "karma-jasmine-html-reporter": "~2.0.0",
+        "typescript": "~5.9.3"
+    },
+    "lint-staged": {
+        "*.ts": [
+            "eslint",
+            "prettier --write"
+        ]
+    }
 }
