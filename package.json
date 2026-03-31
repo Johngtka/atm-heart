@@ -12,7 +12,7 @@
         "format": "prettier --write ./**/*.{ts,json,html,css}",
         "prepare": "husky install",
         "update": "npm update",
-        "frameupate": "ng upate"
+        "frameupate": "ng update"
     },
     "private": true,
     "dependencies": {
