@@ -17,5 +17,6 @@ export class AtmComponent implements OnInit {
 
     disableEndingAppAlert(): void {
         this.appEndingAlert = false;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }

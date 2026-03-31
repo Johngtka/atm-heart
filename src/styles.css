@@ -22,6 +22,7 @@ main {
     text-align: center;
     text-shadow: 5px 5px 5px #000000;
     font-family: 'BlenderProThin', cursive;
+    margin-bottom: 20px;
 }
 
 main p {
