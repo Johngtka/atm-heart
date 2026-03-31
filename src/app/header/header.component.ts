@@ -5,6 +5,7 @@ import { BreakpointObserver } from '@angular/cdk/layout';
 @Component({
     selector: 'atm-header',
     templateUrl: './header.component.html',
+    standalone: false,
 })
 export class HeaderComponent implements OnInit {
     isFooterMobile!: boolean;

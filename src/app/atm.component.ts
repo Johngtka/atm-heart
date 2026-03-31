@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
     selector: 'atm-root',
     templateUrl: './atm.component.html',
     styleUrls: ['./atm.component.css'],
+    standalone: false,
 })
 export class AtmComponent implements OnInit {
     constructor(private router: Router) {}
