@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.1](https://github.com/Johngtka/atm-heart/compare/v1.6.0...v1.6.1) (2026-04-01)
+
+
+### Bug Fixes
+
+* Application upddate and fix for videos ([#17](https://github.com/Johngtka/atm-heart/issues/17)) ([888ca8d](https://github.com/Johngtka/atm-heart/commit/888ca8d8d30c6392359fa00f948c577f841bef67))
+
 ## [1.6.0](https://github.com/Johngtka/atm-heart/compare/v1.5.0...v1.6.0) (2023-12-01)
 
 
