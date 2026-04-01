@@ -4,7 +4,7 @@
 }
 
 .element {
-    height: 230px;
+    width: auto;
     padding: 0;
 }
 
@@ -30,6 +30,7 @@
 .vidBtn a {
     width: auto;
 }
+
 .vidBtn button {
     margin-top: 5px;
     margin-bottom: 5px;

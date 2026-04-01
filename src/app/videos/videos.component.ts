@@ -4,5 +4,6 @@ import { Component } from '@angular/core';
     selector: 'atm-videos',
     templateUrl: './videos.component.html',
     styleUrls: ['./videos.component.css'],
+    standalone: false,
 })
 export class VideosComponent {}

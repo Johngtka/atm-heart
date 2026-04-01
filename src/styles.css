@@ -10,6 +10,59 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    justify-content: space-between;
+    border-bottom: 3px solid #b70000;
+    font-family: 'Playfair Display', serif;
+}
+
+.headerForMobiles {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logoForMobiles {
+    width: 200px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuForMobile {
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+header img {
+    padding: 20px;
+}
+
+.menu {
+    display: block;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.menu button {
+    width: auto;
+    display: block;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
 
 @font-face {
     font-family: 'BlenderProThin';
@@ -22,6 +75,7 @@ main {
     text-align: center;
     text-shadow: 5px 5px 5px #000000;
     font-family: 'BlenderProThin', cursive;
+    margin-bottom: 20px;
 }
 
 main p {
@@ -92,57 +146,4 @@ footer p {
 
 footer a {
     color: #b70000;
-}
-
-header {
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    justify-content: space-between;
-    border-bottom: 3px solid #b70000;
-    font-family: 'Playfair Display', serif;
-}
-
-.headerForMobiles {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.logoForMobiles {
-    width: 200px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-.menuForMobile {
-    display: flex;
-    padding: 0;
-    justify-content: space-evenly;
-}
-
-header img {
-    padding: 20px;
-}
-
-.menu {
-    display: block;
-    padding-top: 20px;
-    padding-right: 40px;
-}
-.menu button {
-    width: auto;
-    display: block;
-    font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#logo {
-    width: 200px;
-    margin: 0;
-    padding: 0;
-    float: left;
 }
